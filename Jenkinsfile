@@ -7,7 +7,9 @@ pipeline{
             }
         }
         stage('Build'){
-            echo "Test Jenkins"
+            steps{
+                echo "Test Jenkins"
+            }
         }
     }
 }

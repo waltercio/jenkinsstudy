@@ -3,10 +3,7 @@ pipeline{
     stages{
         stage('clone'){
             steps{
-                checkout scmGit(
-                branches: [[name: 'main']],
-                url: 'ssh://github.com/jenkinsci/git-plugin.git']])
-            }
+                git 'git@github.ibm.com:mss-qa/api-automation.git'
         }
         stage('Build'){
             echo "Test Jenkins"

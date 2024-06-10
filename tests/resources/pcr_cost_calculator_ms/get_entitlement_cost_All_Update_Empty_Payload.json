@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "Policy Update": [],
+    "NAT Update": [],
+    "Interface Update": [],
+    "Route Update": [],
+    "VPN Update": [],
+    "Object Update": []
+  }
+}

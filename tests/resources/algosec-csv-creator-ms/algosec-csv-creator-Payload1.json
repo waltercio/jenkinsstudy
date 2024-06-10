@@ -1,0 +1,171 @@
+{
+  "data": {
+    "NAT update": [
+      {
+        "request_item": "1",
+        "action": "Create",
+        "rule_name": "1to1 NAT",
+        "original_source_address": "255.255.255.255",
+        "original_destination_address": "255.255.255.2",
+        "original_protocol": "ANY",
+        "translated_source_address": "original",
+        "translated_destination_address": "10.1.2.3",
+        "translated_protocol": "original",
+        "comments": "Hide traffic behind external range of IPs to allow for software updates.",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Create",
+        "rule_name": "1to1 NAT",
+        "original_source_address": "255.255.255.256",
+        "original_destination_address": "255.255.255.2",
+        "original_protocol": "ANY",
+        "translated_source_address": "original",
+        "translated_destination_address": "10.1.2.4",
+        "translated_protocol": "original",
+        "comments": "Hide traffic behind external range of IPs to allow for software updates.",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "rule_name": "Manyto1 Nat",
+        "original_source_address": "255.255.255.257",
+        "original_destination_address": "255.255.255.3",
+        "original_protocol": "ANY",
+        "translated_source_address": "original",
+        "translated_destination_address": "10.1.2.5",
+        "translated_protocol": "original",
+        "comments": "Hide traffic behind external range of IPs to allow for software updates.",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "4",
+        "action": "Create",
+        "rule_name": "Manyto1 Nat",
+        "original_source_address": "255.255.255.258",
+        "original_destination_address": "255.255.255.4",
+        "original_protocol": "ANY",
+        "translated_source_address": "original",
+        "translated_destination_address": "10.1.2.6",
+        "translated_protocol": "original",
+        "comments": "Hide traffic behind external range of IPs to allow for software updates.",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      }
+    ],
+    "Route update": [
+      {
+        "request_item": "1",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "object_name": "DC1 BE mgmt network",
+        "network_address": "255.255.255.0",
+        "netmask": "255.255.255.128",
+        "gateway_nexthop": "255.255.255.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Create",
+        "route_name": "Traffic to customer portal",
+        "object_name": "DC1 BE mgmt network",
+        "network_address": "255.255.255.0",
+        "netmask": "255.255.255.0",
+        "gateway_nexthop": "255.255.255.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      }
+    ],
+    "Interface update": [
+      {
+        "request_item": "1",
+        "action": "Create",
+        "interface_assignee": "Bond1",
+        "interface_address": "10.153.101.2",
+        "inteface_netmask": "255.255.255.255",
+        "vip_address": "10.153.101.3",
+        "vlan_id": "VLAN 101",
+        "comments": "External network connection through 3rd party vender",
+        "firewall_policy": "wk-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Create",
+        "interface_assignee": "eth3",
+        "interface_address": "10.153.1.100",
+        "inteface_netmask": "255.255.255.255",
+        "comments": "Remove DR interface",
+        "firewall_policy": "wk-hzlw-us-fw1"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "interface_assignee": "eth3",
+        "interface_address": "10.154.1.100",
+        "inteface_netmask": "255.255.255.255",
+        "comments": "Return interface to normal",
+        "firewall_policy": "wk-hzlw-us-fw1"
+      },
+      {
+        "request_item": "4",
+        "action": "Create",
+        "interface_assignee": "eth2.143",
+        "interface_address": "10.15.1.2",
+        "inteface_netmask": "255.255.255.252",
+        "vip_address": "10.153.101.3",
+        "vlan_id": "143",
+        "comments": "New VLAN for app data",
+        "firewall_policy": "wk-us-fw2"
+      }
+    ],
+    "Object update": [
+      {
+        "request_item": "1",
+        "action": "Create",
+        "object_type": "IPS Policy",
+        "object_name": "Standard_IPS_Policy",
+        "action_items": "Set flags 35835 to off",
+        "comments": "Update check flags",
+        "firewall_policy": "wk-hzlw-us-hbfw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Create",
+        "object_type": "IPS Policy",
+        "object_name": "Standard_IPS_Policy",
+        "action_items": "Set flags 33348 to off",
+        "comments": "Update check flags",
+        "firewall_policy": "wk-hzlw-us-hbfw1/2"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "object_type": "Group Object",
+        "object_name": "Internal_Host",
+        "action_items": "H_10.1.22.91 H_10.1.22.100\nH_10.1.22.9",
+        "comments": "Game timer up",
+        "firewall_policy": "hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "4",
+        "action": "Create",
+        "object_type": "DLP Policy",
+        "object_name": "Substandard_Policy",
+        "action_items": "Set all settings to default",
+        "comments": "Sub-Standard policies",
+        "firewall_policy": "wk-hzlw-us223"
+      },
+      {
+        "request_item": "5",
+        "action": "Create",
+        "object_type": "DLP Policy",
+        "object_name": "Substandard_Policy",
+        "action_items": "Set timeout to 0",
+        "comments": "Sub-Standard policies",
+        "firewall_policy": "wk-hzlw-us223"
+      }
+    ]
+  }
+}

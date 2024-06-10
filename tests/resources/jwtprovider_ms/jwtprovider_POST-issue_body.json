@@ -1,0 +1,11 @@
+{
+  "iss": "Issuer",
+  "sub": "Subject",
+  "aud": "Audience",
+  "exp": "2840169600",
+  "nbf": "1420099200",
+  "iat": "1420099200",
+  "jti": "e2568b44-bab5-420b-bdcf-9c4dfc8f3af4",
+  "custom-claim-1": "value1",
+  "custom-claim-2": "value2"
+}

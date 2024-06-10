@@ -1,0 +1,12 @@
+{
+  "x-remoteip": "Local machine IP",
+  "sub": "Microservices",
+  "iss": "sec.ibm.com",
+  "privileged-user": false,
+  "username": "algosec_user",
+  "API_NAME": "authentication",
+  "customerId": "P000002820",
+  "partnerId": "CIDS705057",
+  "customerContactId": "STG000007055976",
+  "user-realm": "CUSTOMER_CONTACT"
+}

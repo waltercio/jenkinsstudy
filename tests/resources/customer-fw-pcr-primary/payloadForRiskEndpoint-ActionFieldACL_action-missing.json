@@ -1,0 +1,28 @@
+{
+  "Policy Update": [
+
+    {
+      "request_item": "5",
+      "action": "",
+      "source_address": "10.2.2.5,10.2.2.6,10.2.2.7,10.3.2.5,10.3.2.6",
+      "destination_address": "255.255.255.100",
+      "service": "Service1",
+      "application": "SNow,.IBM.box.com",
+      "advance_security": "Apply Substandard_Policy",
+      "acl_action": "",
+      "comments": "Add new servers to ExtraNet rule",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "6",
+      "action": "Create",
+      "source_address": "N_11.1.1.0",
+      "destination_address": "10.0.1.0/16",
+      "service": "ICMP/220",
+      "application": "ANY",
+      "acl_action": "",
+      "comments": "Remove Dev Network from rule",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+	"auraSyncJobName": {
+		"DEV": "MSS Manual",
+		"STG": "MSS Manual",
+		"PRD": "MSS Manual",
+		"EU" : "MSS Manual"
+		
+	},
+
+	"newJobName": {
+		"DEV": "Test",
+		"STG": "Test",
+		"PRD": "Test",
+		"EU" : "Test"
+
+	}
+}

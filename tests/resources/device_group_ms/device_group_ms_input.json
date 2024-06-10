@@ -1,0 +1,33 @@
+{
+    "DEV": {
+      "id": "STG000000001038",
+      "wrongId": "TestWrongId",
+      "customerId": "CID001696",
+      "includeTotalCount": "true"
+    },
+    "STG": {
+        "id": "STG000000001038",
+        "wrongId": "TestWrongId",
+        "customerId": "CID001696",
+        "includeTotalCount": "true"
+      },
+    "PRD": {
+        "id": "P00000000000163",
+        "wrongId": "TestWrongId",
+        "customerId": "CID001696",
+        "includeTotalCount": "true"
+      },
+    "EU": {
+        "id": "P00000000000163",
+        "wrongId": "TestWrongId",
+        "customerId": "CID001696",
+        "includeTotalCount": "true"
+      },
+    "RUH": {
+        "id": "S70000000000003",
+        "wrongId": "TestWrongId",
+        "customerId": "CID001696",
+        "includeTotalCount": "true"
+}
+}
+  

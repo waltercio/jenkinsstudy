@@ -1,0 +1,14 @@
+[
+    {
+        "id": "CID001696",
+        "fromAddressEmail": "test_IawanMod11",
+        "emailSignature": "test_IawanMod11",
+        "boolTest": false        
+    },
+    {
+        "id": "P000000614",
+        "fromAddressEmail": "test_IawanAdd22",
+        "portalURL": "TestTest_IawanMod22",
+        "boolTest": true
+    }
+]

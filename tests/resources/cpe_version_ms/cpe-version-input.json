@@ -1,0 +1,36 @@
+{
+    "DEV": {
+      "cpeversionId": "1",
+      "vendorId":"442",
+      "vendorName":"1024cms",
+      "type":"APPLICATION",
+      "remedyCustomerId":"P000000614",
+      "searchString":"0.7",
+      "searchType":"VERSION",
+      "restrictedcpeversionId": "6880",
+      "cpeversionIdForAll":"2"
+    },
+    "STG": {
+      "cpeversionId": "1",
+      "vendorId":"442",
+      "vendorName":"1024cms",
+      "type":"APPLICATION",
+      "remedyCustomerId":"P000000614",
+      "searchString":"0.7",
+      "searchType":"VERSION",
+      "restrictedcpeversionId": "12",
+      "cpeversionIdForAll":"2"
+      },
+    "PRD": {
+      "cpeversionId": "1",
+      "vendorId":"442",
+      "vendorName":"1024cms",
+      "type":"APPLICATION",
+      "remedyCustomerId":"P000000614",
+      "searchString":"0.7",
+      "searchType":"VERSION",
+      "restrictedcpeversionId": "12",
+      "cpeversionIdForAll":"2"
+      }
+  }
+  

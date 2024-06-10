@@ -1,0 +1,123 @@
+{
+  "payload": {
+    "Policy Update": [
+      {
+        "request_item": "1",
+        "action": "Create",
+        "rule_id": "B2B",
+        "source_address": "192.168.12.1",
+        "destination_address": "255.255.255.12",
+        "service": "TCP_443",
+        "application": "SNow,.IBM.box.com",
+        "advance_security": "Apply Substandard_Policy",
+        "comments": "To allow traffic from one network to another on port 443",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Remove From",
+        "rule_id": "Example2.1",
+        "advance_security": "IPS_Standard_exceptions",
+        "comments": "Remove IPS profile from the rule",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "3",
+        "action": "Add To",
+        "rule_id": "Example2.25",
+        "source_address": "G_Admins",
+        "comments": "Add G_Admins group to rule Example2.25",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "4",
+        "action": "Delete",
+        "rule_id": "0c85ff7c-cc9f-794b-8a47-7559ab3edac7",
+        "source_address": "10.0.0.0/16",
+        "destination_address": "123.45.67.90/32",
+        "service": "ANY",
+        "advance_security": "N/A",
+        "comments": "Remove Audit Scanners after Audit",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "5",
+        "action": "Create",
+        "rule_id": "ExternalRule45",
+        "source_zone": "Inbound",
+        "destination_zone": "Outbound",
+        "source_address": "H_10.252.5.1",
+        "destination_address": "ANY",
+        "service": "TCP_443,TCP_80",
+        "application": "DancedanceRevolution.org",
+        "advance_security": "Dance_Fever_Protection_Suite",
+        "comments": "Protect Internal host from Boogie Fever",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "6",
+        "action": "Create",
+        "rule_id": "Internal_External",
+        "source_zone": "LAN4",
+        "destination_zone": "WAN",
+        "source_address": "N_10.0.1.0_20",
+        "destination_address": "ANY",
+        "service": "ANY",
+        "comments": "Customer Access",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "7",
+        "action": "Add To",
+        "rule_id": "ExtraNet Rule111",
+        "source_address": "10.2.2.5,10.2.2.6,10.2.2.7,10.3.2.5,10.3.2.6,10.3.2.7,10.4.2.5,10.4.2.6,10.4.2.7",
+        "comments": "Add new servers to ExtraNet rule",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "8",
+        "action": "Remove From",
+        "rule_id": "Example2.11",
+        "destination_address": "10.0.1.0/16",
+        "comments": "Remove Dev Network from rule",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "9",
+        "action": "Add To",
+        "rule_id": "Example2.2",
+        "destination_address": "BackendServers",
+        "comments": "Add new backend server's group to rule",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "10",
+        "action": "Remove From",
+        "rule_id": "Example3",
+        "service": "TCP_636,ICMP,UDP_123",
+        "comments": "clean up Example3 rule",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "11",
+        "action": "Create",
+        "rule_id": "PaidHost",
+        "source_address": "Paid_host",
+        "destination_address": "ANY",
+        "service": "ANY",
+        "application": "ANY",
+        "comments": "Access for Paid host",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      }
+    ],
+    "Object Update": [
+      {
+        "object_type": "Group Object",
+        "action": "Create",
+        "object_name": "Paid_host",
+        "action_items": "10.1.1.1,10.1.1.2,10.1.1.3,10.1.1.4",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "endpointURL": {
+          "DEV": "https://mars-splunk-notable-event-collector.dal09-dev.k8s-lab.sec.ibm.com/check",
+          "STG": "https://mars-splunk-notable-event-collector.atl-stg.k8s.sec.ibm.com/check",
+          "PRD": "https://mars-splunk-notable-event-collector.atl-prd.k8s.sec.ibm.com/check",
+          "EU": "https://mars-splunk-notable-event-collector.fra02-prd.k8s.sec.ibm.com/check",
+          "RUH": "https://mars-splunk-notable-event-collector.ruh01-prd.k8s.sec.ibm.com/check"
+      }
+  
+  }
+  

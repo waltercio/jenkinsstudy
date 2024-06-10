@@ -1,0 +1,364 @@
+{
+  "device": {
+  "customerId": "CIDD706957",
+  "customerName": "UAT-Customer",
+  "deviceId": "PRD00004",
+  "deviceIp": "198.23.124.8",
+  "hostName": "splunkServer",
+  "platform": "Splunk Search Head",
+  "pollingRequired": true,
+  "siemInfo": {
+  "splunkPassword": "${SPLUNK_PASS}",
+  "splunkUser": "splunk",
+  "splunkHost": "198.23.124.8",
+  "isCredentialsEncrypted": "false",
+  "qradarMultiTenant": "no"
+  }
+  },
+  "result": {
+  "preview": false,
+  "init_offset": 0,
+  "messages": [{
+  "type": "INFO",
+  "text": "Lookup table 'risk_correlation_by_system_lookup' is empty."
+  }, {
+  "type": "INFO",
+  "text": "Lookup table 'risk_correlation_by_user_lookup' is empty."
+  }, {
+  "type": "WARN",
+  "text": "[atl-msslab-splunk-poc2-idx-01] The 'sse_content_exported_lookup' KV Store lookup table is empty or has not yet been replicated to the search peer (path used is: /opt/splunk/var/run/searchpeers/74CEE724-7B7B-4208-BA38-886768FCF562-1617285633/kvstore_s_Splunk5+n+0jIfNWH9x+qdy7cD4GTT_sse_coJ@B0O8hXdet61ea3UJwUeElb)."
+  }],
+  "fields": [{
+  "name": "_bkt"
+  }, {
+  "name": "_cd"
+  }, {
+  "name": "_eventtype_color"
+  }, {
+  "name": "_indextime"
+  }, {
+  "name": "_key"
+  }, {
+  "name": "_raw"
+  }, {
+  "name": "_serial"
+  }, {
+  "name": "_si"
+  }, {
+  "name": "_sourcetype"
+  }, {
+  "name": "_time"
+  }, {
+  "name": "apps"
+  }, {
+  "name": "categories"
+  }, {
+  "name": "category"
+  }, {
+  "name": "comment"
+  }, {
+  "name": "control",
+  "type": "str"
+  }, {
+  "name": "count"
+  }, {
+  "name": "default_owner"
+  }, {
+  "name": "default_status"
+  }, {
+  "name": "drilldown_earliest",
+  "type": "str"
+  }, {
+  "name": "drilldown_earliest_offset"
+  }, {
+  "name": "drilldown_latest",
+  "type": "str"
+  }, {
+  "name": "drilldown_latest_offset"
+  }, {
+  "name": "drilldown_name"
+  }, {
+  "name": "drilldown_search"
+  }, {
+  "name": "event_hash",
+  "type": "str"
+  }, {
+  "name": "event_id",
+  "type": "str"
+  }, {
+  "name": "eventtype"
+  }, {
+  "name": "extract_artifacts"
+  }, {
+  "name": "filename"
+  }, {
+  "name": "governance",
+  "type": "str"
+  }, {
+  "name": "host"
+  }, {
+  "name": "index"
+  }, {
+  "name": "indexer_guid",
+  "type": "str"
+  }, {
+  "name": "info_max_time"
+  }, {
+  "name": "info_min_time"
+  }, {
+  "name": "info_search_time"
+  }, {
+  "name": "investigation_profiles"
+  }, {
+  "name": "killchain"
+  }, {
+  "name": "linecount"
+  }, {
+  "name": "mitre_tactic"
+  }, {
+  "name": "mitre_tactic_combined"
+  }, {
+  "name": "mitre_tactic_description"
+  }, {
+  "name": "mitre_technique"
+  }, {
+  "name": "mitre_technique_combined"
+  }, {
+  "name": "mitre_technique_description"
+  }, {
+  "name": "next_steps"
+  }, {
+  "name": "notable_xref_id"
+  }, {
+  "name": "notable_xref_name"
+  }, {
+  "name": "orig_action_name"
+  }, {
+  "name": "orig_event_id"
+  }, {
+  "name": "orig_rid"
+  }, {
+  "name": "orig_sid"
+  }, {
+  "name": "orig_tag"
+  }, {
+  "name": "owner",
+  "type": "str"
+  }, {
+  "name": "owner_realname",
+  "type": "str"
+  }, {
+  "name": "priority",
+  "type": "str"
+  }, {
+  "name": "recommended_actions"
+  }, {
+  "name": "review_time"
+  }, {
+  "name": "reviewer"
+  }, {
+  "name": "rule_description",
+  "type": "str"
+  }, {
+  "name": "rule_id",
+  "type": "str"
+  }, {
+  "name": "rule_name",
+  "type": "str"
+  }, {
+  "name": "rule_title",
+  "type": "str"
+  }, {
+  "name": "savedsearch_description"
+  }, {
+  "name": "search_name"
+  }, {
+  "name": "security_domain",
+  "type": "str"
+  }, {
+  "name": "severity",
+  "type": "str"
+  }, {
+  "name": "showcaseId"
+  }, {
+  "name": "showcaseName"
+  }, {
+  "name": "source"
+  }, {
+  "name": "sourcetype"
+  }, {
+  "name": "splunk_server"
+  }, {
+  "name": "splunk_server_group"
+  }, {
+  "name": "status",
+  "type": "str"
+  }, {
+  "name": "status_default",
+  "type": "str"
+  }, {
+  "name": "status_description",
+  "type": "str"
+  }, {
+  "name": "status_end",
+  "type": "str"
+  }, {
+  "name": "status_group",
+  "type": "str"
+  }, {
+  "name": "status_label",
+  "type": "str"
+  }, {
+  "name": "suppression"
+  }, {
+  "name": "tag",
+  "type": "str"
+  }, {
+  "name": "tag::eventtype"
+  }, {
+  "name": "timestamp"
+  }, {
+  "name": "urgency",
+  "type": "str"
+  }, {
+  "name": "user"
+  }, {
+  "name": "vendor_action"
+  }],
+  "results": [{
+  "_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+  "_cd": "32:1714222",
+  "_eventtype_color": "none",
+  "_indextime": "1617288611",
+  "_raw": "1617288608, search_name=\"Threat - Web Browsing To Unauthorized Sites - Rule\", apps=\"apple-update\", apps=\"bet365\", apps=\"google-maps\", apps=\"web-browsing\", categories=\"adult-and-pornography\", categories=\"any\", categories=\"dead-sites\", categories=\"online-gambling\", categories=\"questionable\", categories=\"spyware-and-adware\", count=\"306\", filename=\"index-leopard-snowleopard.merged-1.sucatalog\", filename=\"js\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"tng\\\\picard\", vendor_action=\"block-url\", vendor_action=\"reset-both\"",
+  "_serial": "0",
+  "_si": ["atl-msslab-splunk-poc2-idx-01", "notable"],
+  "_sourcetype": "stash",
+  "_time": "2021-04-01T10:50:11.000-04:00",
+  "apps": ["apple-update", "bet365", "google-maps", "web-browsing"],
+  "categories": ["adult-and-pornography", "any", "dead-sites", "online-gambling", "questionable", "spyware-and-adware"],
+  "count": "306",
+  "drilldown_earliest": "1617202200.000000000",
+  "drilldown_earliest_offset": "$info_min_time$",
+  "drilldown_latest": "1617288600.000000000",
+  "drilldown_latest_offset": "$info_max_time$",
+  "event_hash": "0123456789QA",
+  "event_id": "E7A25A3F-208A-47DC-AC37-763911CA7CDB@@notable@@a1b92278c8403dcefcd1c7882bd40c4f",
+  "eventtype": ["modnotable_results", "notable"],
+  "extract_artifacts": "{\"asset\":[\"src\",\"dest\",\"dvc\",\"orig_host\",\"count\",\"filename\",\"vendor_action\",\"app\",\"category\"],\"identity\":[\"src_user\",\"user\",\"count\",\"filename\",\"app\",\"category\"]}",
+  "filename": ["index-leopard-snowleopard.merged-1.sucatalog", "js"],
+  "host": "atl-msslab-splunk-poc2-sh-02",
+  "index": "notable",
+  "indexer_guid": "E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+  "info_max_time": "1617288600.000000000",
+  "info_min_time": "1617202200.000000000",
+  "info_search_time": "1617288603.900622000",
+  "investigation_profiles": "{}",
+  "linecount": "1",
+  "orig_action_name": "notable",
+  "orig_rid": "6",
+  "orig_sid": "0123456789QA",
+  "owner": "unassigned",
+  "owner_realname": "unassigned",
+  "priority": "unknown",
+  "rule_description": "Detect users who are persistently attempting to violate our proxy policy.",
+  "rule_id": "E7A25A3F-208A-47DC-AC37-763911CA7CDB@@notable@@a1b92278c8403dcefcd1c7882bd40c4f",
+  "rule_name": "Web Browsing To Unauthorized Sites",
+  "rule_title": "Web Browsing To Unauthorized Sites",
+  "savedsearch_description": "Detect users who are persistently attempting to violate our proxy policy.",
+  "search_name": "Threat - Web Browsing To Unauthorized Sites - Rule",
+  "security_domain": "threat",
+  "severity": "high",
+  "source": "Threat - Web Browsing To Unauthorized Sites - Rule",
+  "sourcetype": "stash",
+  "splunk_server": "atl-msslab-splunk-poc2-idx-01",
+  "status": "1",
+  "status_default": "true",
+  "status_description": "Event has not been reviewed.",
+  "status_end": "false",
+  "status_group": "New",
+  "status_label": "New",
+  "tag": ["Me", "modaction_result"],
+  "tag::eventtype": "modaction_result",
+  "timestamp": "none",
+  "urgency": "medium",
+  "user": "tng\\picard",
+  "vendor_action": ["block-url", "reset-both"]
+  }, {
+  "_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+  "_cd": "32:1714202",
+  "_eventtype_color": "none",
+  "_indextime": "1617288608",
+  "_raw": "1617288608, search_name=\"Threat - Web Browsing To Unauthorized Sites - Rule\", apps=\"google-maps\", apps=\"web-browsing\", categories=\"any\", categories=\"malware-sites\", categories=\"online-gambling\", count=\"147\", filename=\"8fe44cb728c0f40750c64ee906eb72.css\", filename=\"about.exe\", filename=\"carla.jpg\", filename=\"config.bin\", filename=\"config.bin1\", filename=\"config.bin5\", filename=\"js\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"tng\\\\jordy\", vendor_action=\"block-url\", vendor_action=\"deny\", vendor_action=\"reset-both\"",
+  "_serial": "1",
+  "_si": ["atl-msslab-splunk-poc2-idx-01", "notable"],
+  "_sourcetype": "stash",
+  "_time": "2021-04-01T10:50:08.000-04:00",
+  "apps": ["google-maps", "web-browsing"],
+  "categories": ["any", "malware-sites", "online-gambling"],
+  "count": "147",
+  "drilldown_earliest": "1617202200.000000000",
+  "drilldown_earliest_offset": "$info_min_time$",
+  "drilldown_latest": "1617288600.000000000",
+  "drilldown_latest_offset": "$info_max_time$",
+  "event_hash": "0123456789QA",
+  "event_id": "E7A25A3F-208A-47DC-AC37-763911CA7CDB@@notable@@11cf9154ef1481a68083f4b190cd190d",
+  "eventtype": ["modnotable_results", "notable"],
+  "extract_artifacts": "{\"asset\":[\"src\",\"dest\",\"dvc\",\"orig_host\",\"count\",\"filename\",\"vendor_action\",\"app\",\"category\"],\"identity\":[\"src_user\",\"user\",\"count\",\"filename\",\"app\",\"category\"]}",
+  "filename": ["8fe44cb728c0f40750c64ee906eb72.css", "about.exe", "carla.jpg", "config.bin", "config.bin1", "config.bin5", "js"],
+  "host": "atl-msslab-splunk-poc2-sh-02",
+  "index": "notable",
+  "indexer_guid": "E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+  "info_max_time": "1617288600.000000000",
+  "info_min_time": "1617202200.000000000",
+  "info_search_time": "1617288603.900622000",
+  "investigation_profiles": "{}",
+  "linecount": "1",
+  "orig_action_name": "notable",
+  "orig_rid": "5",
+  "orig_sid": "0123456789QA",
+  "owner": "unassigned",
+  "owner_realname": "unassigned",
+  "priority": "unknown",
+  "rule_description": "Detect users who are persistently attempting to violate our proxy policy.",
+  "rule_id": "E7A25A3F-208A-47DC-AC37-763911CA7CDB@@notable@@11cf9154ef1481a68083f4b190cd190d",
+  "rule_name": "Web Browsing To Unauthorized Sites",
+  "rule_title": "Web Browsing To Unauthorized Sites",
+  "savedsearch_description": "Detect users who are persistently attempting to violate our proxy policy.",
+  "search_name": "Threat - Web Browsing To Unauthorized Sites - Rule",
+  "security_domain": "threat",
+  "severity": "high",
+  "source": "Threat - Web Browsing To Unauthorized Sites - Rule",
+  "sourcetype": "stash",
+  "splunk_server": "atl-msslab-splunk-poc2-idx-01",
+  "status": "1",
+  "status_default": "true",
+  "status_description": "Event has not been reviewed.",
+  "status_end": "false",
+  "status_group": "New",
+  "status_label": "New",
+  "tag": ["Me", "modaction_result"],
+  "tag::eventtype": "modaction_result",
+  "timestamp": "none",
+  "urgency": "medium",
+  "user": "tng\\jordy",
+  "vendor_action": ["block-url", "deny", "reset-both"]
+  }, {
+  "_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+  "_cd": "32:1713959",
+  "_eventtype_color": "none",
+  "_indextime": "1617288608",
+  "_raw": "1617288608, search_name=\"Threat - Web Browsing To Unauthorized Sites - Rule\", apps=\"google-analytics\", apps=\"google-maps\", apps=\"web-browsing\", categories=\"adult-and-pornography\", categories=\"any\", categories=\"block-list\", categories=\"dead-sites\", categories=\"malware-sites\", categories=\"online-gambling\", categories=\"parked-domains\", categories=\"phishing-and-other-frauds\", categories=\"spam-urls\", categories=\"spyware-and-adware\", categories=\"unknown\", count=\"4598\", filename=\"0.exe.bak\", filename=\"0001.exe\", filename=\"1\", filename=\"1.exe\", filename=\"1.exe.bak\", filename=\"1.gif\", filename=\"1.php\", filename=\"1100u.exe\", filename=\"113.exe\", filename=\"123.php\", filename=\"14.exe\", filename=\"151.exe\", filename=\"172.exe\", filename=\"1cfg.bin\", filename=\"2.exe\", filename=\"2.gif\", filename=\"2009.bin\", filename=\"216.jpg\", filename=\"28budu.exe\", filename=\"3.gif\", filename=\"3913443.exe\", filename=\"3g\", filename=\"4.exe\", filename=\"4.gif\", filename=\"4jpg.bin\", filename=\"4jpg.exe\", filename=\"4u.bin\", filename=\"5.gif\", filename=\"5.htm\", filename=\"52hxw.exe\", filename=\"5e.txt\", filename=\"6.gif\", filename=\"6007_1.exe\", filename=\"6244.exe\", filename=\"65\", filename=\"7.gif\", filename=\"8.gif\", filename=\"88.exe\", filename=\"89sd.bin\", filename=\"97fbq.exe\", filename=\"AntivirusPlus.exe\", filename=\"AntivirusPlus_ba.exe\", filename=\"FunkyEmoticons_setup.exe\", filename=\"Info.exe\", filename=\"InstallAVg_77107310.exe\", filename=\"Install_11-1.exe\", filename=\"InternetAntivirusPro.exe\", filename=\"JPG-1100009975.exe\", filename=\"License.v.3.413.dmg\", filename=\"License.v.3.413.exe\", filename=\"Live-Player_setup.exe\", filename=\"POSTALESAMORPORSIEMPRE.php\", filename=\"PcGuideSetup.exe\", filename=\"Pelite.EXE\", filename=\"PersonalAntivirus.exe\", filename=\"QvodSetup3.exe\", filename=\"TestCodec.v.3.127.cab\", filename=\"__utm.gif\", filename=\"_a\", filename=\"_download.aspx\", filename=\"a.bin\", filename=\"a.exe\", filename=\"a100.htm\", filename=\"aasuper0.php\", filename=\"aasuper1.php\", filename=\"aasuper2.php\", filename=\"aasuper3.php\", filename=\"admin.php\", filename=\"adv.exe\", filename=\"aff.bin\", filename=\"aff.exe\", filename=\"alla\", filename=\"auq.php\", filename=\"av.26.0.exe\", filename=\"av.jpg\", filename=\"avirakit.exe\", filename=\"avscan.exe\", filename=\"b64.jpg\", filename=\"baba.exe\", filename=\"barackobamainfo.com\", filename=\"bbot.exe\", filename=\"bin.bin\", filename=\"binu.bi\", filename=\"bmp.bin\", filename=\"body_10pl.jpg\", filename=\"body_bg_akh10.jpg\", filename=\"body_spn.jpg\", filename=\"boom.bib\", filename=\"borders.php\", filename=\"bot2.exe\", filename=\"brkmail.jpg\", filename=\"bucks.php\", filename=\"cartaocarteiro.exe\", filename=\"cd\", filename=\"certz.exe\", filename=\"cfg\", filename=\"cfg.bin\", filename=\"cfg09.bin\", filename=\"cfg09.exe\", filename=\"cfg2.bin\", filename=\"chase.htm\", filename=\"check.html\", filename=\"clib.bin\", filename=\"cmd.php\", filename=\"codec.exe\", filename=\"codec_pack_3.2.1.exe\", filename=\"con.doc\", filename=\"conf.sts\", filename=\"config.bin\", filename=\"config.php\", filename=\"config.txt\", filename=\"copyright.txt\", filename=\"count.php\", filename=\"coupon.exe\", filename=\"couponlist.exe\", filename=\"courier.html\", filename=\"cr.txt\", filename=\"cs.bin\", filename=\"daica.exe\", filename=\"daica.gaidep\", filename=\"demo.exe\", filename=\"dll.bin\", filename=\"doc.fer\", filename=\"download.php\", filename=\"download.pl\", filename=\"erfgbhnjygtf.exe\", filename=\"exe.php\", filename=\"expocity.html\", filename=\"ffxi.exe\", filename=\"file.exe\", filename=\"file.php\", filename=\"file3.exe\", filename=\"forum\", filename=\"forum_config.bin\", filename=\"freescan.php\", filename=\"fuck3.exe\", filename=\"fxx.htm\", filename=\"g.txt\", filename=\"ga.js\", filename=\"gen.php\", filename=\"ger.cer\", filename=\"get_file.php\", filename=\"getexe.php\", filename=\"getfile.php\", filename=\"gif.bin\", filename=\"go.php\", filename=\"gqrrfft\", filename=\"gwc.txt\", filename=\"haoma.qq.com\", filename=\"hitin.php\", filename=\"iepdf.php\", filename=\"ijbndf.bin\", filename=\"ikarus.bin\", filename=\"image.php\", filename=\"images\", filename=\"imgpe.bin\", filename=\"in\", filename=\"in.cgi\", filename=\"in.php\", filename=\"index.cgi\", filename=\"index.htm\", filename=\"index.html\", filename=\"index.php\", filename=\"info.php\", filename=\"innex-la.com\", filename=\"inside.exe\", filename=\"inst.php\", filename=\"install.exe\", filename=\"install.php\", filename=\"install.pl\", filename=\"installpv.exe\", filename=\"instcash.exe\", filename=\"j1_2.php\", filename=\"j772gg.bin\", filename=\"jhk.ico\", filename=\"js\", filename=\"juyjyuj5.exe\", filename=\"kill.jpg\", filename=\"killav8.jpg\", filename=\"kz3i2.html\", filename=\"ld.php\", filename=\"ldr.exe\", filename=\"liloadercdi.php\", filename=\"load.php\", filename=\"loader.exe\", filename=\"log.log\", filename=\"lsp.pl\", filename=\"luk\", filename=\"main\", filename=\"main.bin\", filename=\"main.exe\", filename=\"main.xxl\", filename=\"make-pictures\", filename=\"menue.exe\", filename=\"mj.exe\", filename=\"mmf32.exe\", filename=\"modes.txt\", filename=\"mortgage.html\", filename=\"moun.html\", filename=\"n.bin\", filename=\"n.exe\", filename=\"ncr.exe\", filename=\"new1.exe\", filename=\"nfcleaner.exe\", filename=\"nfr.exe\", filename=\"nuc\", filename=\"nuip.exe\", filename=\"null.exe\", filename=\"obama-pijama.doc\", filename=\"office.js\", filename=\"or.exe\", filename=\"order_av.php\", filename=\"oute.php\", filename=\"outm.php\", filename=\"p.exe\", filename=\"palast.html\", filename=\"pay.html\", filename=\"pdf.pdf\", filename=\"pdf.php\", filename=\"perce.jpg\", filename=\"pin.exe\", filename=\"pke.exe\", filename=\"player.php\", filename=\"podmena.exe\", filename=\"popup_main.exe\", filename=\"pp.04.exe\", filename=\"pp.05.exe\", filename=\"pp.06.exe\", filename=\"promo.exe\", filename=\"qqp\", filename=\"qvod.exe\", filename=\"readme.pdf\", filename=\"ref=s9_simh_gw_p340_d0_g340_i6\", filename=\"run.exe\", filename=\"s\", filename=\"s.bin\", filename=\"s.exe\", filename=\"scan.php\", filename=\"script.js\", filename=\"se.exe\", filename=\"search\", filename=\"search.php\", filename=\"serial.LimeWire.5.0.6.PRob3199.exe\", filename=\"server.exe\", filename=\"setup-trial.exe\", filename=\"setup.exe\", filename=\"setup.ini\", filename=\"setup.msi\", filename=\"setup.php\", filename=\"setupxp.exe\", filename=\"setupxv.exe\", filename=\"shop1.bin\", filename=\"smile.exe\", filename=\"soft.php\", filename=\"softwarefortubeview.40009.exe\", filename=\"sol.dat\", filename=\"spl.php\", filename=\"srm_free_setup.exe\", filename=\"stat.php\", filename=\"steam\", filename=\"svchost.exe\", filename=\"system\", filename=\"teaser1.wmv.exe\", filename=\"tieude.thitcho\", filename=\"tomi\", filename=\"tool25.dat\", filename=\"topu.bin\", filename=\"traff.exe\", filename=\"try.php\", filename=\"tupac-all-eyez-on-me-1996.html\", filename=\"u2.txt\", filename=\"uLLGRaXP.exe\", filename=\"ue.exe\", filename=\"upd.bin\", filename=\"upd.exe\", filename=\"update.exe\", filename=\"us2.exe\", filename=\"videoxxx.avi.exe\", filename=\"viewtubesoftware.40019.exe\", filename=\"vistasetup.exe\", filename=\"vitoria.jpg\", filename=\"vparivatel.php\", filename=\"vtb.exe\", filename=\"wakeupvip.bin\", filename=\"winamp.exe\", filename=\"winlogon.htm\", filename=\"wmcodec_update.exe\", filename=\"wow.exe\", filename=\"ws.exe\", filename=\"ws.zip\", filename=\"wtsin.cgi\", filename=\"ww1.journalist-adventure.com\", filename=\"www.amazon.com\", filename=\"www.digipour.com\", filename=\"www.domophone.kiev.ua\", filename=\"www.ebay.com\", filename=\"x15b.php\", filename=\"xcvb.pdf\", filename=\"xcvb2.pdf\", filename=\"xpre.tmp\", filename=\"xrun.tmp\", filename=\"xxx.bin\", filename=\"ya.bin\", filename=\"ya.exe\", filename=\"yvscpd.php\", filename=\"z.bin\", filename=\"z.exe\", filename=\"zeus.bin\", filename=\"zeus.exe\", filename=\"zip.zip\", filename=\"zlzlzlz.exe\", filename=\"zlzlzlzl.bin\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"tng\\\\crusher\", vendor_action=\"block-url\", vendor_action=\"deny\", vendor_action=\"reset-both\""
+  
+  }],
+  "tags": {
+  "eventtype": {
+  "modnotable_results": ["modaction_result"]
+  },
+  "owner": {
+  "unassigned": ["Me"]
+  }
+  },
+  "highlighted": {}
+  }
+  }

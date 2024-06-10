@@ -1,0 +1,45 @@
+{
+  "xpsAlert":{
+    "alertId":"alert00001", 
+    "customerId":"CID001234", 
+    "deviceId":"DEV0001",
+    "timestamp":1623266738, 
+    "platform":"splunk", 
+    "rawData":"this is a test from QA automation - simple-am-engine-log",
+    "logType":"alert", 
+    "srcIp":"1.1.1.1",
+    "dstIp":"2.2.2.2", 
+    "srcPort":"234", 
+    "dstPort":"443", 
+    "priority":"Low", 
+    "eventName":"this is a test from QA automation - simple-am-engine-log", 
+    "action":"log", 
+    "count":"1", 
+    "logValues":{"testAttributeName":"testvalue"}
+  },
+
+  "xppRule":{
+    "id":"${RULE_ID}", 
+    "ruleName": "this is a test from QA automation - simple-am-engine-log",
+    "description": "this is a test from QA automation - simple-am-engine-log",
+    "author":"qa-automation", 
+    "logType":"alert", 
+    "status":"active",
+    "association": "false",
+    "duration": "0",
+    "condition":"${CONDITION}", 
+    "action":{
+      "type":"close", 
+      "actionSetting":{
+        "workLog":"${WORKLOG}",
+        "priority": "Medium"
+      }
+    },
+    "notification":{
+      "type":"email", 
+      "notificationSetting":{
+        "emailAddress":"rlopesangelelli@ibm.com"
+      }
+    }
+  }
+}

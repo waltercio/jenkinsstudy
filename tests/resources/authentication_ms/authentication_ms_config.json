@@ -1,0 +1,22 @@
+{
+
+	"kubernetCheck": {
+		"URL": {
+			"DEV": "https://dashboard.dal09-dev.k8s-lab.sec.ibm.com/#!/overview?namespace=integration",
+			"STG": "https://dashboard.atl-stg.k8s.sec.ibm.com/#!/overview?namespace=master",
+			"PRD": "https://dashboard.atl-prd.k8s.sec.ibm.com/#!/overview?namespace=master",
+			"EU": "https://dashboard.eu-prd.k8s.sec.ibm.com/#!/overview?namespace=master",
+			"RUH": "https://api.ruh01-prd-kubmin-01a.sec.ibm.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/pod?namespace=master"
+		}
+	},
+
+	"postURL": "/micro/customer/P000000614",
+
+	"bodyRequestFileName": "request.json",
+
+	"bodyResponseFileName": "authentication_ms_response.json",
+
+	"headerCheckAssertion": {
+		"statusCode": "200"
+	}
+}

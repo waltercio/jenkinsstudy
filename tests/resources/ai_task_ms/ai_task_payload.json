@@ -1,0 +1,18 @@
+{ 
+"analysisType": "RESILIENT_UPDATE_INCIDENT", 
+"updateLastAITaskForTicket": true, 
+"resilientUpdateIncidentTaskData": { 
+"ticketId": "SO0000000000001", 
+"customerId": "C001", 
+"customerName": "My Test Customer", 
+"deviceId": "D001", 
+"deviceName": "My Test Device", 
+"createdOn": "2019-10-22T10:30:48.000Z", 
+"lastModifiedOn": "2019-10-22T10:31:48.000Z", 
+"lastModifiedBy": "qa", 
+"alertIds": "001,002", 
+"offenseIds": "123,456" 
+}, 
+"createdBy": "qa-test", 
+"taskNotes": "test-taskNotes" 
+}

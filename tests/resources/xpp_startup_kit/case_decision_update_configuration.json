@@ -1,0 +1,9 @@
+{
+    "baseURL": {
+      "DEV": "https://case-decision-update-sk-xpp.apps-priv.dal09-dev-ocp-02.cl.sec.ibm.com/",
+      "STG": "https://case-decision-update-sk-xpp.cp4s-vpc02-84cdbceaaccb3d6ee156de8fb22691e4-0000.eu-de.containers.appdomain.cloud/",
+      "ANZ": "https://case-decision-update-sk-xpp.apps-priv.syd05-prd-ocp-01.cl.sec.ibm.com/",
+      "US-SOC": "https://case-decision-update-sk-xpp.apps-priv.wdc03-prd-ocp-01.cl.sec.ibm.com/"
+    }
+  }
+  

@@ -1,0 +1,2 @@
+Customer Asset ID,Host Name,MAC Address,IP Address,Network,Platform,OS,Proxy,Applications,Ports,Location,Business Unit,Business Process,Criticality,Sensitivity,Regulated
+300,Unicorn001,ba:98:76:54:32:10   ,19.1.20.1,0029840c,cpe:/h:xerox:workcentre_m55:2.28.11.000,cpe:/o:debian:debian_linux:0.9.1,Yes,"cpe:/o:debian:debian_linux:0.9.1, cpe:/a:3com:3c15100d","65,535",Hortolandia,Corporate,CRM,HIGH,,Yes

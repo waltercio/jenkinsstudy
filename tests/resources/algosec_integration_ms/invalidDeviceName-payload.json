@@ -1,0 +1,26 @@
+{
+  "Policy Update": [
+    {
+      "request_item": "9",
+      "action": "Create",
+      "source_address": "10.10.10.11",
+      "destination_address": "ANY",
+      "service": "tcp/4876",
+      "application": "ANY",
+      "acl_action": "Accept",
+      "comments": "",
+      "firewall_policy": "atl-msslab-R8040_fw11"
+    },
+    {
+      "request_item": "9",
+      "action": "Create",
+      "source_address": "10.10.10.12",
+      "destination_address": "ANY",
+      "service": "udp/138",
+      "application": "ANY",
+      "acl_action": "Accept",
+      "comments": "",
+      "firewall_policy": "atl-msslab-R8040_fw12"
+    }
+  ]
+}

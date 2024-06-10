@@ -1,0 +1,24 @@
+{
+  "id":"${NEW_RULE_ID}", 
+  "ruleName": "this is a test from QA automation - simple-am-engine-log",
+  "description": "this is a test from QA automation - simple-am-engine-log",
+  "author":"qa-automation", 
+  "logType":"alert", 
+  "status":"active",
+  "association": "false",
+  "duration": "0",
+  "condition":"srcip:1.1.1.10", 
+  "action":{
+    "type":"close", 
+    "actionSetting":{
+      "workLog":"This rule matched a given srcIp and it's priority has been raised to Medium",
+      "priority": "Medium"
+    }
+  },
+  "notification":{
+    "type":"email", 
+    "notificationSetting":{
+      "emailAddress":"rlopesangelelli@ibm.com"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "severityVal": "SEV1",
+  "issueDescription": "Ticket created by automated tests",
+  "issueType": "SIEM Malware",
+  "customerId": "KSAP000000614",
+  "securityAnalyst": "wobc",
+  "statusVal" : "new",
+  "customerName": "KSA QA Customer"
+}

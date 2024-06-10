@@ -1,0 +1,13 @@
+{
+    
+    "eventGroups": [
+        {
+            "eventGroupName": "CreateNewGroup",
+            "description": "test create group",
+            "customerId": "275",
+            "userId": "",
+            "type": "CUSTOMER_CREATED",
+            "publiclyViewable": true
+        }
+    ]
+}

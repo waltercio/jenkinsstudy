@@ -1,0 +1,95 @@
+{
+  "payload": {
+    "Interface Update": [
+      {
+        "request_item": "1",
+        "action": "Delete",
+        "interface_assignee": "Bond1",
+        "interface_address": "10.153.101.2",
+        "interface_netmask": "255.255.255.248",
+        "vip_address": "10.153.101.3",
+        "vlan_id": "101",
+        "comments": "External network connection through 3rd party vender",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Delete",
+        "interface_assignee": "eth3",
+        "interface_address": "10.153.1.100",
+        "interface_netmask": "255.255.255.255",
+        "comments": "Remove DR interface",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "interface_assignee": "eth3",
+        "interface_address": "10.154.1.100",
+        "interface_netmask": "255.255.255.255",
+        "comments": "Return interface to normal",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "4",
+        "action": "Create",
+        "interface_assignee": "eth2.143",
+        "interface_address": "10.15.1.2",
+        "interface_netmask": "255.255.255.252",
+        "vlan_id": "143",
+        "comments": "New VLAN for app data",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "5",
+        "action": "Delete",
+        "interface_assignee": "eth2.13",
+        "interface_address": "10.15.2.2",
+        "interface_netmask": "255.255.255.0",
+        "vip_address": "10.15.2.1",
+        "vlan_id": "13",
+        "comments": "Remove DevOPS vlan",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "6",
+        "action": "Create",
+        "interface_assignee": "eth1-01",
+        "interface_address": "192.1.67.1",
+        "interface_netmask": "255.255.255.252",
+        "vip_address": "192.1.67.2",
+        "comments": "Configure FiberCard backbone",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "7",
+        "action": "Delete",
+        "interface_assignee": "eth8",
+        "interface_address": "10.34.3.27",
+        "interface_netmask": "255.255.255.128",
+        "comments": "Remove Dev245 network",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "8",
+        "action": "Create",
+        "interface_assignee": "eth1-02",
+        "interface_address": "192.3.67.1",
+        "interface_netmask": "255.255.255.252",
+        "vip_address": "192.3.67.3",
+        "comments": "Configure FiberCard backbone",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "9",
+        "action": "Delete",
+        "interface_assignee": "Bond5",
+        "interface_address": "10.5.6.7",
+        "interface_netmask": "255.255.255.0",
+        "vip_address": "10.5.6.1",
+        "comments": "Remove Bond5",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      }
+    ]
+  }
+}

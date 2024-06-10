@@ -1,0 +1,16 @@
+{
+  "AIDBURL": {
+    "DEV": "jdbc:mysql://dal09-dev-aidb-01.sec.ibm.com/ai",
+    "STG": "jdbc:mysql://atl-stg-aidb-01a.mss.iss.net/ai",
+    "PRD": "jdbc:mysql://atl-prd-aidb-01a.mss.iss.net/ai",
+    "EU": "jdbc:mysql://fra02-prd-aidb-01a.sec.ibm.com/ai",
+    "RUH": "jdbc:mysql://ruh01-prd-aidb-01a.sec.ibm.com/ai"
+  },
+
+  
+  "CSSDBURL": {
+    "DEV": "jdbc:mysql://dal09-dev-mssdb-01a.sec.ibm.com",
+    "STG": "jdbc:mysql://atl-stg-mssdb-01a.sec.ibm.com"
+
+  }
+}

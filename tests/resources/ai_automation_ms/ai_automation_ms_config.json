@@ -1,0 +1,9 @@
+{
+
+	"aiAutomationMsURN": "micro/ai_automation?size=20&populateLogFilterStatistics=true",
+	
+	"headerCheckAssertion": {
+		"statusCode": "200"
+	}
+
+}

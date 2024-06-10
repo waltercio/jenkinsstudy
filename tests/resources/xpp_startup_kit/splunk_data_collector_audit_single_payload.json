@@ -1,0 +1,42 @@
+{
+	"device": {
+		"customerId": "CIDD706957",
+		"customerName": "UAT-Customer",
+		"deviceId": "PRD00004",
+		"deviceIp": "198.23.124.8",
+		"hostName": "splunkServer",
+		"platform": "Splunk Search Head",
+		"pollingRequired": true,
+		"siemInfo": {
+			"splunkPassword": "${SPLUNK_PASS}",
+			"splunkUser": "splunk",
+			"splunkHost": "198.23.124.8",
+			"isCredentialsEncrypted": "false",
+			"qradarMultiTenant": "no"
+		}
+	},
+	"audit": {
+		"_bkt": "_audit~1676~5580C733-4157-45DE-B4A9-A8241E22DD2B",
+		"_cd": "1676:93250719",
+		"_indextime": "1627025971",
+		"_kv": "1",
+		"_raw": "Audit:[timestamp=07-23-2021 03:39:30.999, user=splunk-system-user, action=search, info=cgobbi_testing_single_audit_longer_timeout, search_id='0123456789QA'][n/a]",
+		"_serial": "0",
+		"_si": ["atl-msslab-splunk-poc-idx-03", "_audit"],
+		"_sourcetype": "audittrail",
+		"_subsecond": ".999304",
+		"_time": "2021-07-29T03:39:30.999-04:00",
+		"action": "search",
+		"dest": "atl-msslab-splunk-poc2-sh-02",
+		"host": "atl-msslab-splunk-poc2-sh-02",
+		"index": "_audit",
+		"info": "cancel",
+		"linecount": "1",
+		"search_id": "0123456789QA",
+		"source": "audittrail",
+		"sourcetype": "audittrail",
+		"splunk_server": "atl-msslab-splunk-poc-idx-03",
+		"timestamp": "07-29-2021 03:39:30.999",
+		"user": "splunk-system-user"
+	}
+}

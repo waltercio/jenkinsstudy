@@ -1,0 +1,12 @@
+{
+	"priorityVal": "Low (3)",
+	"shortDescription": "Testing XPS-170450_1",
+	"statusVal": "new",
+	"issueType": "INT-HC-QRadar-Reference-Data",
+	"customerId": "P000000614",
+	"customerName": "QA Customer",
+	"assignmentGroup": "IBM-SD-Service Desk",
+	"contactEmail": "wobc@br.ibm.com",
+	"subCategory": "Execution. TA0002",
+	"securityAnalyst": "wobc"
+}

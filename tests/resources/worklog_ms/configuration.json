@@ -1,0 +1,34 @@
+{
+  "ticketToTestDemoCustomer": {
+    "DEV": "SOCJ00700907035",
+    "STG": "SOCJ00702618490",
+    "PRD": "SOCJ00700932136",
+  	"EU": "SOCE00701194243",
+	"RUH": "SOCRU0700000010"
+  },
+
+  "ticketToTestQaCustomer": {
+    "DEV": "SOCY00701714027",
+    "STG": "SOCJ00703211735",
+    "PRD": "SOCJ00701649948",
+	"EU": "SOCJ00701649948",
+	"RUH": "SOCRU0700000018"
+
+  },
+
+  "schema": {
+    "DEV": "DEV00203",
+    "STG": "STG00803",
+    "PRD": "PR000003",
+ 	"EU": "PR000003",
+	"RUH": "PR000003"
+  },
+
+  "troubleTicketIDs": {
+    "DEV": "SOCY00702074819",
+    "STG": "SOCJ00701289134",
+    "PRD": "SOCJ00701289134",
+    "EU": "SOCJ00701289134",
+    "RUH": "SOCRU0700000020"
+  }
+}

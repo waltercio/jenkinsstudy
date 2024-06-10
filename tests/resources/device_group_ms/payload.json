@@ -1,0 +1,8 @@
+{
+  "name":"device-group test1",
+  "customerId":"CID001696",
+  "description":"Creating new record",
+  "typeVa":"User",
+  "statusVal":"Active",
+  "viewable":"true"
+}

@@ -1,0 +1,25 @@
+{
+  "payload": {
+    "New VPN Request": [
+      {
+        "request_item": "1",
+        "vpn_name": "APEX_VPN",
+        "remote_peer_ip": "34.85.99.12",
+        "remote_peer_enc_domain": "10.10.10.0/24,10.20.20.0/24,10.30.30.0/24",
+        "local_peer_ip": "92.198.3.56",
+        "local_peer_enc_domain": "VPN_EncDom",
+        "ike_version": "IKEv2",
+        "ike_encryption": "AES-256",
+        "ike_integrity": "SHA2-256 (IKE2 Only)",
+        "ike_key_lifetime_sec": "86400",
+        "ike_diffie_hellman_grp": "14",
+        "ike_aggressive_mode": "Disable",
+        "ipsec_encryption": "AES-256",
+        "ipsec_integrity": "SHA2-256 (IKE2 Only)",
+        "ipsec_key_lifetime_sec": "28800",
+        "ipsec_diffie_hellman_grp": "Disabled",
+        "comments": "Pre-shared Secret will be provided over scheduled meeting"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "alertId":"alert202107271319", 
+  "customerId":"CIDD706957", 
+  "deviceId":"P000025",
+  "timestamp":1623266738, 
+  "platform":"splunk", 
+  "rawData":"this is a test from QA automation - simple-am-engine-log",
+  "logType":"alert", 
+  "srcIp":"1.1.1.xx",
+  "dstIp":"2.2.2.2", 
+  "srcPort":"234000", 
+  "dstPort":"443000", 
+  "priority":"High", 
+  "eventName":"this is a test from QA automation - simple-am-engine-log", 
+  "action":"log", 
+  "count":"1", 
+  "logValues":{"testAttributeName":"testvalue","splunkRuleDescription":"this is a test from QA automation - simple-am-engine-log","ruleDescription":"this is a test from QA automation - simple-am-engine-log"}
+}

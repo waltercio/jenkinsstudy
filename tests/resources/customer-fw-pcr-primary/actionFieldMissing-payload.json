@@ -1,0 +1,25 @@
+{
+  "issueDescription": "Allow Dallas office to reach Frankfurt-12 segment.",
+  "deviceNames": [
+    "atl-msslab-pa-vm-v10"
+  ],
+  "partnerDeviceIDs": [],
+  "customerTicketID": "W443-66011",
+  "blockEventNotification": "Block",
+  "requestDetails": {
+    "Policy Update": [
+      {
+        "request_item": "1",
+        "action": "",
+        "source_address": "192.168.12.1",
+        "destination_address": "255.255.255.12",
+        "service": "TCP/443",
+        "application": "SNow,.IBM.box.com",
+        "advance_security": "Apply Substandard_Policy",
+        "acl_action": "Accept",
+        "comments": "To allow traffic from one network to another on port 443",
+        "firewall_policy": "atl-msslab-pa-vm-v10"
+      }
+    ]
+  }
+}

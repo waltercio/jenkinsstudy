@@ -1,0 +1,14 @@
+{
+  "issueType": "PCR - Change Policy",
+  "service": "Managed FireWall",
+  "customerId": "KSAP000000614",
+  "customerName": "KSA QA Customer",
+  "contactName": "Diego",
+  "securityAnalyst": "diegobs",
+  "customerSatisfactionComments": "TESTING FROM API",
+  "contactEmail": "diegobs@br.ibm.com",
+  "statusVal": "New",
+  "entitlementCount": "2",
+  "slaHours": "36",
+  "pcrServiceSku": "36 Hour PCR SLA"
+}

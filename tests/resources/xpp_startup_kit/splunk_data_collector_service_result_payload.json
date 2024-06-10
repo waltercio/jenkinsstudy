@@ -1,0 +1,416 @@
+{
+	"device": {
+		"customerId": "CIDD706957",
+		"customerName": "UAT-Customer",
+		"deviceId": "PRD00004",
+		"deviceIp": "198.23.124.8",
+		"hostName": "splunkServer",
+		"platform": "Splunk Search Head",
+		"pollingRequired": true,
+		"siemInfo": {
+			"splunkPassword": "${SPLUNK_PASS}",
+			"splunkUser": "splunk",
+			"splunkHost": "198.23.124.8",
+			"isCredentialsEncrypted": "false",
+			"qradarMultiTenant": "no"
+		}
+	},
+	"result": {
+		"preview": false,
+		"init_offset": 0,
+		"messages": [{
+			"type": "INFO",
+			"text": "Lookup t`ab`le 'risk_correlation_by_system_lookup' is empty."
+		}, {
+			"type": "INFO",
+			"text": "Lookup table 'risk_correlation_by_user_lookup' is empty."
+		}, {
+			"type": "WARN",
+			"text": "[atl-msslab-splunk-poc2-idx-01] The 'sse_content_exported_lookup' KV Store lookup table is empty or has not yet been replicated to the search peer (path used is: /opt/splunk/var/run/searchpeers/74CEE724-7B7B-4208-BA38-886768FCF562-1617285633/kvstore_s_Splunk5+n+0jIfNWH9x+qdy7cD4GTT_sse_coJ@B0O8hXdet61ea3UJwUeElb)."
+		}],
+		"fields": [{
+			"name": "_bkt"
+		}, {
+			"name": "_cd"
+		}, {
+			"name": "_eventtype_color"
+		}, {
+			"name": "_indextime"
+		}, {
+			"name": "_key"
+		}, {
+			"name": "_raw"
+		}, {
+			"name": "_serial"
+		}, {
+			"name": "_si"
+		}, {
+			"name": "_sourcetype"
+		}, {
+			"name": "_time"
+		}, {
+			"name": "apps"
+		}, {
+			"name": "categories"
+		}, {
+			"name": "category"
+		}, {
+			"name": "comment"
+		}, {
+			"name": "control",
+			"type": "str"
+		}, {
+			"name": "count"
+		}, {
+			"name": "default_owner"
+		}, {
+			"name": "default_status"
+		}, {
+			"name": "drilldown_earliest",
+			"type": "str"
+		}, {
+			"name": "drilldown_earliest_offset"
+		}, {
+			"name": "drilldown_latest",
+			"type": "str"
+		}, {
+			"name": "drilldown_latest_offset"
+		}, {
+			"name": "drilldown_name"
+		}, {
+			"name": "drilldown_search"
+		}, {
+			"name": "event_hash",
+			"type": "str"
+		}, {
+			"name": "event_id",
+			"type": "str"
+		}, {
+			"name": "eventtype"
+		}, {
+			"name": "extract_artifacts"
+		}, {
+			"name": "filename"
+		}, {
+			"name": "governance",
+			"type": "str"
+		}, {
+			"name": "host"
+		}, {
+			"name": "index"
+		}, {
+			"name": "indexer_guid",
+			"type": "str"
+		}, {
+			"name": "info_max_time"
+		}, {
+			"name": "info_min_time"
+		}, {
+			"name": "info_search_time"
+		}, {
+			"name": "investigation_profiles"
+		}, {
+			"name": "killchain"
+		}, {
+			"name": "linecount"
+		}, {
+			"name": "mitre_tactic"
+		}, {
+			"name": "mitre_tactic_combined"
+		}, {
+			"name": "mitre_tactic_description"
+		}, {
+			"name": "mitre_technique"
+		}, {
+			"name": "mitre_technique_combined"
+		}, {
+			"name": "mitre_technique_description"
+		}, {
+			"name": "next_steps"
+		}, {
+			"name": "notable_xref_id"
+		}, {
+			"name": "notable_xref_name"
+		}, {
+			"name": "orig_action_name"
+		}, {
+			"name": "orig_event_id"
+		}, {
+			"name": "orig_rid"
+		}, {
+			"name": "orig_sid"
+		}, {
+			"name": "orig_tag"
+		}, {
+			"name": "owner",
+			"type": "str"
+		}, {
+			"name": "owner_realname",
+			"type": "str"
+		}, {
+			"name": "priority",
+			"type": "str"
+		}, {
+			"name": "recommended_actions"
+		}, {
+			"name": "review_time"
+		}, {
+			"name": "reviewer"
+		}, {
+			"name": "rule_description",
+			"type": "str"
+		}, {
+			"name": "rule_id",
+			"type": "str"
+		}, {
+			"name": "rule_name",
+			"type": "str"
+		}, {
+			"name": "rule_title",
+			"type": "str"
+		}, {
+			"name": "savedsearch_description"
+		}, {
+			"name": "search_name"
+		}, {
+			"name": "security_domain",
+			"type": "str"
+		}, {
+			"name": "severity",
+			"type": "str"
+		}, {
+			"name": "showcaseId"
+		}, {
+			"name": "showcaseName"
+		}, {
+			"name": "source"
+		}, {
+			"name": "sourcetype"
+		}, {
+			"name": "splunk_server"
+		}, {
+			"name": "splunk_server_group"
+		}, {
+			"name": "status",
+			"type": "str"
+		}, {
+			"name": "status_default",
+			"type": "str"
+		}, {
+			"name": "status_description",
+			"type": "str"
+		}, {
+			"name": "status_end",
+			"type": "str"
+		}, {
+			"name": "status_group",
+			"type": "str"
+		}, {
+			"name": "status_label",
+			"type": "str"
+		}, {
+			"name": "suppression"
+		}, {
+			"name": "tag",
+			"type": "str"
+		}, {
+			"name": "tag::eventtype"
+		}, {
+			"name": "timestamp"
+		}, {
+			"name": "urgency",
+			"type": "str"
+		}, {
+			"name": "user"
+		}, {
+			"name": "vendor_action"
+		}],
+		"results": [{
+			"_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"_cd": "32:1714222",
+			"_eventtype_color": "none",
+			"_indextime": "1617288611",
+			"_raw": "1617288608, search_name=\"This is a test from QA Automation\", apps=\"apple-update\", apps=\"bet365\", apps=\"google-maps\", apps=\"web-browsing\", categories=\"adult-and-pornography\", categories=\"any\", categories=\"dead-sites\", categories=\"online-gambling\", categories=\"questionable\", categories=\"spyware-and-adware\", count=\"306\", filename=\"index-leopard-snowleopard.merged-1.sucatalog\", filename=\"js\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"tng\\\\picard\", vendor_action=\"block-url\", vendor_action=\"reset-both\"",
+			"_serial": "0",
+			"_si": ["atl-msslab-splunk-poc2-idx-01", "notable"],
+			"_sourcetype": "stash",
+			"_time": "2021-04-01T10:50:11.000-04:00",
+			"apps": ["apple-update", "bet365", "google-maps", "web-browsing"],
+			"categories": ["adult-and-pornography", "any", "dead-sites", "online-gambling", "questionable", "spyware-and-adware"],
+			"count": "306",
+			"drilldown_earliest": "1617202200.000000000",
+			"drilldown_earliest_offset": "$info_min_time$",
+			"drilldown_latest": "1617288600.000000000",
+			"drilldown_latest_offset": "$info_max_time$",
+			"event_hash": "0123456789QA",
+			"event_id": "QA_Automation_Alert_ID_01_splunkDataCollectorServiceResultPayload",
+			"eventtype": ["modnotable_results", "notable"],
+			"extract_artifacts": "{\"asset\":[\"src\",\"dest\",\"dvc\",\"orig_host\",\"count\",\"filename\",\"vendor_action\",\"app\",\"category\"],\"identity\":[\"src_user\",\"user\",\"count\",\"filename\",\"app\",\"category\"]}",
+			"filename": ["index-leopard-snowleopard.merged-1.sucatalog", "js"],
+			"host": "atl-msslab-splunk-poc2-sh-02",
+			"index": "notable",
+			"indexer_guid": "E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"info_max_time": "1617288600.000000000",
+			"info_min_time": "1617202200.000000000",
+			"info_search_time": "1617288603.900622000",
+			"investigation_profiles": "{}",
+			"linecount": "1",
+			"orig_action_name": "notable",
+			"orig_rid": "6",
+			"orig_sid": "0123456789QA",
+			"owner": "unassigned",
+			"owner_realname": "unassigned",
+			"priority": "unknown",
+			"rule_description": "This is a test from QA Automation",
+			"rule_id": "QA_Automation_Alert_ID_01_splunkDataCollectorServiceResultPayload",
+			"rule_name": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"rule_title": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"savedsearch_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"search_name": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"security_domain": "threat",
+			"severity": "high",
+			"source": "TThis is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"sourcetype": "stash",
+			"splunk_server": "atl-msslab-splunk-poc2-idx-01",
+			"status": "1",
+			"status_default": "true",
+			"status_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"status_end": "false",
+			"status_group": "New",
+			"status_label": "New",
+			"tag": ["Me", "modaction_result"],
+			"tag::eventtype": "modaction_result",
+			"timestamp": "none",
+			"urgency": "medium",
+			"user": "tng\\picard",
+			"vendor_action": ["block-url", "reset-both"]
+		}, {
+			"_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"_cd": "32:1714202",
+			"_eventtype_color": "none",
+			"_indextime": "1617288608",
+			"_raw": "1617288608, search_name=\"This is a test from QA Automation via splunk_data_collector_service_result_payload\", apps=\"google-maps\", apps=\"web-browsing\", categories=\"any\", categories=\"malware-sites\", categories=\"online-gambling\", count=\"147\", filename=\"8fe44cb728c0f40750c64ee906eb72.css\", filename=\"about.exe\", filename=\"carla.jpg\", filename=\"config.bin\", filename=\"config.bin1\", filename=\"config.bin5\", filename=\"js\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"tng\\\\jordy\", vendor_action=\"block-url\", vendor_action=\"deny\", vendor_action=\"reset-both\"",
+			"_serial": "1",
+			"_si": ["atl-msslab-splunk-poc2-idx-01", "notable"],
+			"_sourcetype": "stash",
+			"_time": "2021-04-01T10:50:08.000-04:00",
+			"apps": ["google-maps", "web-browsing"],
+			"categories": ["any", "malware-sites", "online-gambling"],
+			"count": "147",
+			"drilldown_earliest": "1617202200.000000000",
+			"drilldown_earliest_offset": "$info_min_time$",
+			"drilldown_latest": "1617288600.000000000",
+			"drilldown_latest_offset": "$info_max_time$",
+			"event_hash": "0123456789QA",
+			"event_id": "QA_Automation_Alert_ID_02_splunkDataCollectorServiceResultPayload",
+			"eventtype": ["modnotable_results", "notable"],
+			"extract_artifacts": "{\"asset\":[\"src\",\"dest\",\"dvc\",\"orig_host\",\"count\",\"filename\",\"vendor_action\",\"app\",\"category\"],\"identity\":[\"src_user\",\"user\",\"count\",\"filename\",\"app\",\"category\"]}",
+			"filename": ["8fe44cb728c0f40750c64ee906eb72.css", "about.exe", "carla.jpg", "config.bin", "config.bin1", "config.bin5", "js"],
+			"host": "atl-msslab-splunk-poc2-sh-02",
+			"index": "notable",
+			"indexer_guid": "E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"info_max_time": "1617288600.000000000",
+			"info_min_time": "1617202200.000000000",
+			"info_search_time": "1617288603.900622000",
+			"investigation_profiles": "{}",
+			"linecount": "1",
+			"orig_action_name": "notable",
+			"orig_rid": "5",
+			"orig_sid": "0123456789QA",
+			"owner": "unassigned",
+			"owner_realname": "unassigned",
+			"priority": "unknown",
+			"rule_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"rule_id": "QA_Automation_Alert_ID_02_splunkDataCollectorServiceResultPayload",
+			"rule_name": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"rule_title": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"savedsearch_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"search_name": "Threat - This is a test from QA Automation via splunk_data_collector_service_result_payload - Rule",
+			"security_domain": "threat",
+			"severity": "high",
+			"source": "Threat - This is a test from QA Automation via splunk_data_collector_service_result_payload - Rule",
+			"sourcetype": "stash",
+			"splunk_server": "atl-msslab-splunk-poc2-idx-01",
+			"status": "1",
+			"status_default": "true",
+			"status_description": "Event has not been reviewed.",
+			"status_end": "false",
+			"status_group": "New",
+			"status_label": "New",
+			"tag": ["Me", "modaction_result"],
+			"tag::eventtype": "modaction_result",
+			"timestamp": "none",
+			"urgency": "medium",
+			"user": "tng\\jordy",
+			"vendor_action": ["block-url", "deny", "reset-both"]
+		}, {
+			"_bkt": "notable~32~E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"_cd": "32:1713860",
+			"_eventtype_color": "none",
+			"_indextime": "1617288608",
+			"_raw": "1617288608, search_name=\"Threat - This is a test from QA Automation via splunk_data_collector_service_result_payload - Rule\", apps=\"ssl\", apps=\"web-browsing\", categories=\"dead-sites\", categories=\"malware-sites\", count=\"48\", filename=\"awt_analytics.js\", filename=\"trackingAPI.js\", info_max_time=\"1617288600.000000000\", info_min_time=\"1617202200.000000000\", info_search_time=\"1617288603.900622000\", user=\"counselor\", vendor_action=\"block-url\"",
+			"_serial": "6",
+			"_si": ["atl-msslab-splunk-poc2-idx-01", "notable"],
+			"_sourcetype": "stash",
+			"_time": "2021-04-01T10:50:08.000-04:00",
+			"apps": ["ssl", "web-browsing"],
+			"categories": ["dead-sites", "malware-sites"],
+			"count": "48",
+			"drilldown_earliest": "1617202200.000000000",
+			"drilldown_earliest_offset": "$info_min_time$",
+			"drilldown_latest": "1617288600.000000000",
+			"drilldown_latest_offset": "$info_max_time$",
+			"event_hash": "0123456789QA",
+			"event_id": "QA_Automation_Alert_ID_07_splunkDataCollectorServiceResultPayload",
+			"eventtype": ["modnotable_results", "notable"],
+			"extract_artifacts": "{\"asset\":[\"src\",\"dest\",\"dvc\",\"orig_host\",\"count\",\"filename\",\"vendor_action\",\"app\",\"category\"],\"identity\":[\"src_user\",\"user\",\"count\",\"filename\",\"app\",\"category\"]}",
+			"filename": ["awt_analytics.js", "trackingAPI.js"],
+			"host": "atl-msslab-splunk-poc2-sh-02",
+			"index": "notable",
+			"indexer_guid": "E7A25A3F-208A-47DC-AC37-763911CA7CDB",
+			"info_max_time": "1617288600.000000000",
+			"info_min_time": "1617202200.000000000",
+			"info_search_time": "1617288603.900622000",
+			"investigation_profiles": "{}",
+			"linecount": "1",
+			"orig_action_name": "notable",
+			"orig_rid": "0",
+			"orig_sid": "0123456789QA",
+			"owner": "unassigned",
+			"owner_realname": "unassigned",
+			"priority": "unknown",
+			"rule_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"rule_id": "QA_Automation_Alert_ID_07_splunkDataCollectorServiceResultPayload",
+			"rule_name": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"rule_title": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"savedsearch_description": "This is a test from QA Automation via splunk_data_collector_service_result_payload",
+			"search_name": "Threat - This is a test from QA Automation via splunk_data_collector_service_result_payload - Rule",
+			"security_domain": "threat",
+			"severity": "high",
+			"source": "Threat - This is a test from QA Automation via splunk_data_collector_service_result_payload - Rule",
+			"sourcetype": "stash",
+			"splunk_server": "atl-msslab-splunk-poc2-idx-01",
+			"status": "1",
+			"status_default": "true",
+			"status_description": "Event has not been reviewed.",
+			"status_end": "false",
+			"status_group": "New",
+			"status_label": "New",
+			"tag": ["Me", "modaction_result"],
+			"tag::eventtype": "modaction_result",
+			"timestamp": "none",
+			"urgency": "medium",
+			"user": "counselor",
+			"vendor_action": "block-url"
+		}],
+		"tags": {
+			"eventtype": {
+				"modnotable_results": ["modaction_result"]
+			},
+			"owner": {
+				"unassigned": ["Me"]
+			}
+		},
+		"highlighted": {}
+	}
+}

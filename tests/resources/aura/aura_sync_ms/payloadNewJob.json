@@ -1,0 +1,11 @@
+
+{
+	"jobName": "Test",
+	"cronExpression": "0 0 * * * ?",
+	"criteria": "paging.sortBy[0].name=messageCreatedDate&paging.sortBy[0].direction=Desc&paging.filter.readStatusFilter=Unread&paging.take=500",
+	"status": "PENDING",
+	"isRunningOnce": false,
+	"isManual": true,
+	"retryCount": 0,
+	"additionalCriteria": "NA"
+}

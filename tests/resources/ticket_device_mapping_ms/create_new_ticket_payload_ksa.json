@@ -1,0 +1,62 @@
+{
+  "shortDescription": "Automated Test SI Ticket creation - Short Description",
+  "issueDescription": "Automated Test SI Ticket creation - Description 1234567890 !@#$%^&*()",
+  "customerId": "KSAP000000614",
+  "customerName": "KSA QA Customer",
+  "contactEmail": "diegobs@br.ibm.com",
+  "stateVal": "new",
+  "assignmentGroup": "IBM-SD-Service Desk",
+  "securityAnalyst": "diegobs",
+
+  "dateTimeCustomerContacted": "Tue Mar 28 11:48:42 GMT 2023",
+  "ucAlertStartDate": "Mon Mar 27 01:01:01 GMT 2023",
+  "ucAlertCreatedDate": "Mon Mar 27 02:02:02 GMT 2023",
+  "eventOccurredDate": "2023/03/28 12:32:10",
+  "incidentRecognizedDate": "2023/03/28 12:32:13",
+
+  "contactPhone": "9900990099",
+  "contactName": "Diego",
+  "issueType": "SIEM Anomaly",
+  "priority": "P3 - Medium",
+
+  "attackName": "TEST ATTACK NAME USING MS",
+  "offenseIds": "0101010101,1010101010",
+  "alertIds": "4444400044,55555555,66666666",
+
+  "socActionsTaken": "SOC_ACTIONS DIEGO",
+  "sourceIpBlockOwner": "\n\nARIN WHOIS data and services are subject to the Terms of Use\navailable at: https://www.arin.net/resources/registry/whois/tou/\n\nIf you see inaccuracies in the results, please report at\nhttps://www.arin.net/resources/registry/whois/inaccuracy_reporting/\n\nCopyright 1997-2023, American Registry for Internet Numbers, Ltd.\n\nQuery terms are ambiguous.  The query is assumed to be:\n    \"n 28.2.232.134\"\n\nUse \"?\" to get help.\n\nNetRange:       28.0.0.0 - 28.255.255.255\nCIDR:           28.0.0.0/8\nNetName:        DNIC-NET-028\nNetHandle:      NET-28-0-0-0-1\nParent:          ()\nNetType:        Direct Allocation\nOriginAS:       \nOrganization:   DoD Network Information Center (DNIC)\nRegDate:        1996-03-11\nUpdated:        2009-03-23\nRef:            https://rdap.arin.net/registry/ip/28.0.0.0\n\nOrgName:        DoD Network Information Center\nOrgId:          DNIC\nAddress:        3990 E. Broad Street\nCity:           Columbus\nStateProv:      OH\nPostalCode:     43218\nCountry:        US\nRegDate:        \nUpdated:        2011-08-17\nRef:            https://rdap.arin.net/registry/entity/DNIC\n\nOrgAbuseHandle: REGIS10-ARIN\nOrgAbuseName:   Registration\nOrgAbusePhone:  +1-844-347-2457 \nOrgAbuseEmail:  disa.columbus.ns.mbx.arin-registrations@mail.mil\nOrgAbuseRef:    https://rdap.arin.net/registry/entity/REGIS10-ARIN\n\nOrgTechHandle: REGIS10-ARIN\nOrgTechName:   Registration\nOrgTechPhone:  +1-844-347-2457 \nOrgTechEmail:  disa.columbus.ns.mbx.arin-registrations@mail.mil\nOrgTechRef:    https://rdap.arin.net/registry/entity/REGIS10-ARIN\n\nOrgTechHandle: MIL-HSTMST-ARIN\nOrgTechName:   Network DoD\nOrgTechPhone:  +1-844-347-2457 \nOrgTechEmail:  disa.columbus.ns.mbx.hostmaster-dod-nic@mail.mil\nOrgTechRef:    https://rdap.arin.net/registry/entity/MIL-HSTMST-ARIN\n\nARIN WHOIS data and services are subject to the Terms of Use\navailable at: https://www.arin.net/resources/registry/whois/tou/\n\nIf you see inaccuracies in the results, please report at\nhttps://www.arin.net/resources/registry/whois/inaccuracy_reporting/\n\nCopyright 1997-2023, American Registry for Internet Numbers, Ltd.\n\n",
+  "criticalServerSourceIp": "1.1.1.1, 1.2.3.4, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "sourceIpProtectedSegment": "2.2.2.2, 2.3.4.5, 2.2.2.2, 3.2.1.2, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "sourceDnsName": "10.224.19.90, www.test.com, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "sourceIpAddr": "3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "sourcePort": "2332, 3234, 4444, 1111, 2222, 3333, 5555, 6666, 7777, 8888, 9999",
+
+  "destinationIpAddr": "4.5.4.5, 6.6.6.6, 45.234.234.623, 123.123.123.123, 321.321.321.321, 231.231.231.231, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "destinationPort": "2332, 3234, 4444, 1111, 2222, 3333, 5555, 6666, 7777, 8888, 9999",
+  "criticalServerDestinationIp": "2.2.2.2, 3.2.1.2, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "destinationIpProtectedSegment": "2.2.2.2, 4.4.4.4, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "destinationIpBlockOwner": "% This is the RIPE Database query service.\n% The objects are in RPSL format.\n%\n% The RIPE Database is subject to Terms and Conditions.\n% See http://www.ripe.net/db/support/db-terms-conditions.pdf\n\n% Note: this output has been filtered.\n%       To receive output for a database update, use the \"-B\" flag.\n\n% Information related to '178.100.0.0 - 178.103.255.255'\n\n% Abuse contact for '178.100.0.0 - 178.103.255.255' is 'abuse@ee.co.uk'\n\ninetnum:        178.100.0.0 - 178.103.255.255\nnetname:        MBB-POOLS\ndescr:          KT\ncountry:        GB\nadmin-c:        TMUK-RIPE\ntech-c:         TMUK-RIPE\nstatus:         ASSIGNED PA\nmnt-by:         TMUK-MNT\ncreated:        2010-06-18T15:10:43Z\nlast-modified:  2010-06-18T15:10:43Z\nsource:         RIPE\n\nrole:           T-Mobile UK RIPE Admin\naddress:        Hatfield Business Park\naddress:        Hatfield\naddress:        Hertfordshire, UK\naddress:        AL10 9BW\nabuse-mailbox:  ripe.admin@ee.co.uk\nadmin-c:        EE1964-RIPE\nmnt-by:         TMUK-MNT\ntech-c:         EE1964-RIPE\ntech-c:         EE1964-RIPE\nnic-hdl:        TMUK-RIPE\ncreated:        2009-07-15T08:59:08Z\nlast-modified:  2015-04-20T13:31:39Z\nsource:         RIPE Filtered\n\n% Information related to '178.96.0.0/12AS12576'\n\nroute:          178.96.0.0/12\ndescr:          EE route\norigin:         AS12576\nmnt-by:         AS12576-mnt\ncreated:        2013-07-24T07:59:41Z\nlast-modified:  2015-04-20T21:04:46Z\nsource:         RIPE\n\n% Information related to '178.96.0.0/12AS29328'\n\nroute:          178.96.0.0/12\ndescr:          T-Mobile UK\nremarks:        Report any misuse of abuse to abuse@ee.co.uk\norigin:         AS29328\nmnt-by:         TMUK-MNT\ncreated:        2010-05-20T15:47:07Z\nlast-modified:  2015-04-20T21:05:27Z\nsource:         RIPE\n\n% This query was served by the RIPE Database Query Service version 1.105 (BUSA)\n\n",
+  "destinationURL": "10.224.19.90, www.test.com, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "destinationDnsName": "10.224.19.90, www.test.com, 3.2.3.2, 4.4.3.3, 2.2.2.2, 111.111.111.111, 222.222.222.222, 333.333.333.333 444.444.444.444, 555.555.555.555",
+  "vulnerabilityDetails":"1234567890 Vuln Details Diego",
+
+  "recommendedCustomerActions": "RECOMENDED CUSTOMER ACTIONS DIEGO",
+  "rawEventData": "RAW EVENT DIEGOBS",
+  "customerContactedBy": "diegobs@br.ibm.com",
+  "internalResolution": "TEST QA DIEGO 123 !@#$%",
+  "internalClassification": "TEST QA DIEGO 123 !@#$%",
+  "internalStatus": "New",
+  "autoEscalatedByAI": "true",
+
+  "worklogText": "Testing worklog text added from automation test",
+  "customName": "test name",
+  "customerNotificationEmails": "diegobs@br.ibm.com, wobc@br.ibm.com, Vatamaniuc.Eugeniu@ibm.com",
+
+  "customerSatisfactionPortalUser": "diegobs@br.ibm.com",
+
+  "contactMethod": "Office",
+  "ticketType": "IBM ISS Ticket",
+  "requestedImplementationDate": "2023-02-01T12:45:20.053Z",
+  "passphrase": "testing",
+  "scheduleStatus": "Pending Verification"
+}

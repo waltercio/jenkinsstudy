@@ -1,12 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('clone'){
-            steps{
-                git 'git@github.ibm.com:mss-qa/api-automation.git'
-            }
-        }
-        stage('Build'){
+        stage('Api_Automation_Tests'){
             steps{
                 echo "Test Jenkins"
             }

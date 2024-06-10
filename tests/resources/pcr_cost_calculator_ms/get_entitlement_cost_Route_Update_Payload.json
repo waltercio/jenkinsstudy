@@ -1,0 +1,116 @@
+{
+  "payload": {
+    "Route Update": [
+      {
+        "request_item": "1",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "192.1.1.0",
+        "netmask": "255.255.255.128",
+        "gateway_nexthop": "10.1.2.5",
+        "comments": "Direct traffic over to the MPLS",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Create",
+        "route_name": "Traffic to customer portal",
+        "network_address": "10.0.1.0",
+        "netmask": "255.255.255.0",
+        "gateway_nexthop": "10.1.1.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "route_name": "Traffic to customer portal",
+        "network_address": "192.5.45.69",
+        "netmask": "255.255.255.255",
+        "gateway_nexthop": "10.1.1.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "4",
+        "action": "Create",
+        "route_name": "Traffic to customer portal",
+        "network_address": "192.6.6.64",
+        "netmask": "255.255.255.192",
+        "gateway_nexthop": "10.1.1.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "5",
+        "action": "Create",
+        "route_name": "Traffic to customer portal",
+        "network_address": "10.25.56.0",
+        "netmask": "255.255.255.0",
+        "gateway_nexthop": "10.1.2.5",
+        "comments": "Direct traffic over to the MPLS",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "6",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "10.10.10.128",
+        "netmask": "255.255.255.128",
+        "gateway_nexthop": "192.2.25.1",
+        "comments": "Direct traffic to MSP",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "7",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "10.125.26.128",
+        "netmask": "255.255.255.192",
+        "gateway_nexthop": "10.2.1.1",
+        "comments": "Direct traffic over to the VRF",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "8",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "172.25.28.0",
+        "netmask": "255.255.255.128",
+        "gateway_nexthop": "192.2.25.1",
+        "comments": "Direct traffic to MSP",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "9",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "32.228.15.15",
+        "netmask": "255.255.255.255",
+        "gateway_nexthop": "10.0.0.1",
+        "comments": "Direct traffic to MPLS",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "10",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "172.16.0.0",
+        "netmask": "255.255.0.0",
+        "gateway_nexthop": "10.0.0.1",
+        "comments": "Direct traffic to MPLS",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "11",
+        "action": "Delete",
+        "route_name": "Traffic to customer portal",
+        "network_address": "10.0.0.128",
+        "netmask": "255.255.255.128",
+        "gateway_nexthop": "10.0.1.1",
+        "comments": "Direct traffic to MPLS",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      }
+    ]
+  }
+}

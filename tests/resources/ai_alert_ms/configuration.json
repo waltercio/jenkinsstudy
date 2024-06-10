@@ -1,0 +1,24 @@
+{
+  "deviceId": {
+    "DEV": "P00000008041994",
+    "STG": "P00000008055625",
+    "PRD": "STG000008070451",
+    "EU": "EU0000008069537",
+    "RUH": "STG000008070451"
+  },
+  "customerId": {
+    "DEV": "P000000614",
+    "STG": "CID001696",
+    "PRD": "CID001696",
+    "EU": "P000000614",
+    "RUH": "CID001696"
+  },
+  "siemVendor": {
+    "DEV": "XPS",
+    "STG": "QRADAR",
+    "PRD": "QRADAR",
+    "EU": "QRADAR",
+    "RUH": "QRADAR"
+  },
+  "size": "3"
+}

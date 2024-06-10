@@ -1,0 +1,92 @@
+import scala.concurrent.duration._
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
+import io.gatling.core.assertion._
+import scala.io.Source
+import org.json4s.jackson._
+import org.json4s._
+import scala.collection.mutable.HashMap
+import org.json4s.jackson.Serialization._
+import java.io._
+
+/**
+ * Tests based on: https://jira.sec.ibm.com/browse/QX-1719
+ * For the new hash scenario we must not use qatest, qademouser or any
+ * other real user, as it's password will be changed. For this scenario
+ * was created a user called 'pass_hash_automation'
+
+ * To see the GUID value on production or EU, go to Remedy -> 
+ * Customer-Contacts form -> Switch to the 'MSS Portal Details' tab.
+ * In the 'Portal Login' field inform pass_hash_automation.
+ * Click on 'Report' button above the form.
+ * Find and select a report called 'PassHash'
+ * Click on 'Run' and the report should bring a GUID value
+*/
+
+class PasswordHash extends BaseTest{
+
+    val configurationPwdHash: JValue = JsonMethods.parse(Source.fromFile(
+        currentDirectory + "/tests/resources/pwd_hash/configuration.json").getLines().mkString)
+
+    val guidVerify = (configurationPwdHash \\ "pwdHashGuidVerifyHash" \\ environment).extract[String]
+    val guidNewHash = (configurationPwdHash \\ "pwdHashGuidNewHash" \\ environment).extract[String]
+
+    val pwd_hash_payload: JValue = JsonMethods.parse(Source.fromFile(
+        currentDirectory + "/tests/resources/pwd_hash/pwd_hash_payload.json").getLines().mkString)
+    val value = (pwd_hash_payload \\ "value").extract[String]
+
+    // Information to store all jsessions
+    val jsessionMap: HashMap[String,String] = HashMap.empty[String,String]
+    val writer = new PrintWriter(new File(System.getenv("JSESSION_SUITE_FOLDER") + "/" + new Exception().getStackTrace.head.getFileName.split(".scala")(0) + ".json"))
+
+    // Name of each request
+    val req01 = "Verify hash"
+    val req02 = "New hash"
+
+    // Name of each jsession
+    val js01 = "jsessionid01"
+    val js02 = "jsessionid02"
+
+    val scn = scenario("password_hash")
+      .exec(http(req01)
+        .post("micro/pass_hashing/verify_hash")
+        .queryParam("guid", guidVerify)
+        .body(StringBody(value))
+        .check(status.is(200))
+        .check(regex(""".""").count.is(63)) // Response contains 63 characters
+        .check(headerRegex("Set-Cookie","(?<=\\=)(.*?)(?=\\;)").saveAs(js01))
+      ).exec(flushSessionCookies)
+      .doIf(session => !session.contains(js01)) {
+          exec( session => {
+            session.set(js01, "Unable to retrieve JSESSIONID for this request")
+          })
+        }
+
+      .exec(http(req02)
+        .post("micro/pass_hashing/new_hash")
+        .queryParam("guid", guidNewHash)
+        .body(StringBody("myDataToBeHashed"))
+        .check(status.is(200))
+        .check(regex(""".""").count.is(63)) // Response contains 63 characters
+        .check(headerRegex("Set-Cookie","(?<=\\=)(.*?)(?=\\;)").saveAs(js02))
+      ).exec(flushSessionCookies)
+      .doIf(session => !session.contains(js02)) {
+          exec( session => {
+            session.set(js02, "Unable to retrieve JSESSIONID for this request")
+          })
+        }
+
+      //Exporting all jsession ids
+      .exec( session => {
+        jsessionMap += (req01 -> session(js01).as[String])
+        jsessionMap += (req02 -> session(js02).as[String])
+        writer.write(write(jsessionMap))
+        writer.close()
+        session
+      })
+
+    setUp(
+        scn.inject(atOnceUsers(1)))
+        .protocols(httpProtocol).assertions(global.failedRequests.count.is(0)
+    )
+}

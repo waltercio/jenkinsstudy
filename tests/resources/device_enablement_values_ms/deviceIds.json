@@ -1,0 +1,33 @@
+{
+  "enablementId": {
+    "DEV": "DEV000000004490",
+    "STG": "STG000000033889",
+    "PRD": "PR0000000072691",
+    "EU": "EU0000000000443",
+    "RUH": "RU0000000000011"
+  },
+  
+  "enablementDataKey": {
+    "DEV": "ATDS.decoration.enabled",
+    "STG": "ATDS.close.allow",
+    "PRD": "ATDS.decoration.enabled",
+    "EU": "ATDS.decoration.enabled",
+    "RUH": "MARS Polling"
+  },
+
+  "deviceIds": {
+    "DEV": "P00000008041909",
+    "STG": "P00000008041909",
+    "PRD": "PR0000000004111",
+    "EU": "EU0000008067894",
+    "RUH": "RU0000000000002"
+  },
+
+  "customerId": {
+    "DEV": "P000000614",
+    "STG": "P000000614",
+    "PRD": "P000000614",
+    "EU": "P000000614",
+    "RUH": "CID001696"
+  }
+}

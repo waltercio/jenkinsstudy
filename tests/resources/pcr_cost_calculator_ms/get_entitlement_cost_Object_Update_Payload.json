@@ -1,0 +1,124 @@
+{
+  "payload": {
+    "Object Update": [
+      {
+        "request_item": "1",
+        "action": "Add To",
+        "object_type": "IPS Policy",
+        "object_name": "Standard_IPS_Policy",
+        "action_items": "Set flags 35835 to off",
+        "comments": "Update check flags",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Remove From",
+        "object_type": "Group Object",
+        "object_name": "Internal_Host",
+        "action_items": "H_10.1.22.91,H_10.1.22.100,H_10.1.22.9",
+        "comments": "Game timer up",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "3",
+        "action": "Create",
+        "object_type": "DLP Policy",
+        "object_name": "Substandard_Policy",
+        "action_items": "Set all settings to default,Set timeout to 0",
+        "comments": "Sub-Standard policies",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "4",
+        "action": "Add To",
+        "object_type": "IPS Policy",
+        "object_name": "Standard_IPS_Policy",
+        "action_items": "Set flags 33338 to off,Set flags 33328 to off,Set flags 33318 to off",
+        "comments": "Update check flags",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "5",
+        "action": "Delete",
+        "object_type": "DLP Policy",
+        "object_name": "Substandard_Policy",
+        "action_items": "Entire Policy",
+        "comments": "Remove old DLP policy",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "6",
+        "action": "Create",
+        "object_type": "Host",
+        "object_name": "H_10.1.1.1",
+        "action_items": "10.1.1.1",
+        "comments": "Create host with IP 10.1.1.1",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "7",
+        "action": "Create",
+        "object_type": "Host",
+        "object_name": "H_10.1.1.2",
+        "action_items": "10.1.1.2",
+        "comments": "Create host with IP 10.1.1.2",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "8",
+        "action": "Create",
+        "object_type": "Host",
+        "object_name": "H_10.1.1.3",
+        "action_items": "10.1.1.3",
+        "comments": "Create host with IP 10.1.1.3",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "9",
+        "action": "Create",
+        "object_type": "Network",
+        "object_name": "N_11.1.1.0",
+        "action_items": "11.1.1.0 255.255.255.0",
+        "comments": "Create host with IP 10.1.1.4",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "10",
+        "action": "Create",
+        "object_type": "Group Object",
+        "object_name": "Paid_host",
+        "action_items": "10.1.1.1,10.1.1.2,10.1.1.3,10.1.1.4",
+        "comments": "Create group object",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "11",
+        "action": "Create",
+        "object_type": "Group Object",
+        "object_name": "VPN_EncDom",
+        "action_items": "192.168.1.0/24,10.1.1.0/24,10.1.20.0/24",
+        "comments": "Create Group object for VPN Encryption Domain",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "12",
+        "action": "Delete",
+        "object_type": "Network",
+        "object_name": "N_12.1.3.0",
+        "action_items": "12.1.3.0/24",
+        "comments": "Remove network 12.1.3.0/24",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "13",
+        "action": "Create",
+        "object_type": "Network",
+        "object_name": "N_11.1.1.0",
+        "action_items": "1.12.25.0/24",
+        "comments": "Create host with IP 10.1.1.4",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      }
+
+    ]
+  }
+}

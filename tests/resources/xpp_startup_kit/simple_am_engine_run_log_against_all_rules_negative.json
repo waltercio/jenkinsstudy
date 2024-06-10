@@ -1,0 +1,18 @@
+{
+  "alertId":"alert00002", 
+  "customerId":"CIDD706957", 
+  "deviceId":"DEV00019",
+  "timestamp":1623266749, 
+  "platform":"qradar", 
+  "rawData":"this is an automated test to make sure the rule is not fired - simple-am-engine-log",
+  "logType":"alert", 
+  "srcIp":"x.x.x.x",
+  "dstIp":"2.2.2.2", 
+  "srcPort":"invalidPort", 
+  "dstPort":"invalidPort", 
+  "priority":"High", 
+  "eventName":"testEventName", 
+  "action":"invalidLog", 
+  "count":"1", 
+  "logValues":{"testAttributeName":"Negative test"}
+}

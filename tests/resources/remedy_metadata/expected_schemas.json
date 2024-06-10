@@ -1,0 +1,3 @@
+{
+  "schemas" : [ "ApttusLines", "DeviceEnablementValues", "EnablementValues", "HDCustomerContacts", "HDCustomerDetail", "HDTestTemp", "OPSCustomerLicensedUnits", "OPSDeviceDetails", "OPSDeviceDetailsLogSource", "OPSGroupDefinition", "OPSGroupMapping", "OPSPortalPermission", "OPSTTVendorTicket", "OPSTroubleTicket", "Test", "User" ]
+}

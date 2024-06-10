@@ -1,0 +1,18 @@
+{
+  "alertId":"alert00001", 
+  "customerId":"CIDD706957", 
+  "deviceId":"DEV0001",
+  "timestamp":1623266738, 
+  "platform":"splunk", 
+  "rawData":"this is a test from the automation - simple-am-engine-log",
+  "logType":"alert", 
+  "srcIp":"1.1.1.10",
+  "dstIp":"2.2.2.2", 
+  "srcPort":"234", 
+  "dstPort":"493", 
+  "priority":"High", 
+  "eventName":"testEventName", 
+  "action":"log", 
+  "count":"1", 
+  "logValues":{"testAttributeName":"testvalue"}
+}

@@ -1,0 +1,11 @@
+{
+    "firewallPcrData": {
+        "Policy Update": [],
+        "NAT Update": [],
+        "Route Update": [],
+        "Interface Update": [],
+        "Object Update": [],
+        "VPN Update": [],
+        "New VPN Request": []
+    }
+}

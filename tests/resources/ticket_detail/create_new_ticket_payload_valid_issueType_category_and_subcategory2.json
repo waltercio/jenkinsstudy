@@ -1,0 +1,13 @@
+{
+	"priorityVal": "Low (3)",
+	"shortDescription": "Testing XPS-170450_1",
+	"statusVal": "new",
+	"issueType": "OUT-Quiet IDS Sensor",
+	"customerId": "P000000614",
+	"customerName": "QA Customer",
+	"assignmentGroup": "IBM-SD-Service Desk",
+	"contactEmail": "wobc@br.ibm.com",
+	"category": "Service Request",
+	"subCategory": "Request for Service/General Inquiry",
+	"securityAnalyst": "wobc"
+}

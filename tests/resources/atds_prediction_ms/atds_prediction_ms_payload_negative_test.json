@@ -1,0 +1,16 @@
+[
+  {
+    "alert_id": 279336,
+    "remedy_customer_id": "CID001696",
+    "industry": "testing",
+    "sip_int": 0,
+    "dip_int": 4,
+    "sip_ext": 1,
+    "dip_ext": 0,
+    "mitre_tactic": "Initial Access",
+    "log_sources": "unknown",
+    "siem_vendor": "XPS",
+    "siem_rule_name": "XPS_Unauth_Access",
+    "ai_alert_soc_status": 0
+  }
+]

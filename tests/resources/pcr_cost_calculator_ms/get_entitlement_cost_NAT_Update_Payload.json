@@ -1,0 +1,125 @@
+{
+  "payload": {
+    "NAT Update": [
+      {
+        "request_item": "1",
+        "action": "Create",
+        "rule_id": "0c85ff7c-cc9f-794b-9ab3-7559ab38a47",
+        "original_source_address": "192.168.1.1",
+        "original_destination_address": "ANY",
+        "original_service": "ANY",
+        "translated_source_address": "10.1.2.4",
+        "translated_destination_address": "Original",
+        "translated_service": "Original",
+        "comments": "NAT internal host for MPLS",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "2",
+        "action": "Delete",
+        "rule_id": "Global External NAT",
+        "original_source_address": "192.1.1.1",
+        "original_destination_address": "ANY",
+        "original_service": "ANY",
+        "translated_source_address": "110.1.2.5",
+        "translated_destination_address": "Original",
+        "translated_service": "Original",
+        "comments": "Remove old host",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "3",
+        "action": "Remove From",
+        "rule_id": "Backend_Global",
+        "original_service": "TCP_80",
+        "comments": "Remove http NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "4",
+        "action": "Add To",
+        "rule_id": "Frontend_Global",
+        "translated_destination_address": "3.25.125.98",
+        "comments": "Wrong IP was assigned to NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "5",
+        "action": "Create",
+        "rule_id": "9ab38a47-cc9f-794b-9ab3-7550c85ff7c",
+        "original_source_address": "192.2.54.200",
+        "original_destination_address": "ANY",
+        "original_service": "UDP_123",
+        "translated_source_address": "32.10.1.5",
+        "translated_destination_address": "Original",
+        "translated_service": "Original",
+        "comments": "Hide host for NTP",
+        "firewall_policy": "ibm-hzlw-us-fw1"
+      },
+      {
+        "request_item": "6",
+        "action": "Remove From",
+        "rule_id": "TenFold",
+        "original_source_address": "10.0.0.0/8",
+        "comments": "Remmove 10. hide NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "7",
+        "action": "Add To",
+        "rule_id": "TinFold",
+        "original_destination_address": "10.10.0.25",
+        "comments": "New servers need access to MPLS",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "8",
+        "action": "Create",
+        "rule_id": "0c85ff7c-cc9f-9ab3-794b-7559ab38a47",
+        "original_source_zone": "LAN",
+        "original_destination_zone": "IntWAN",
+        "original_source_address": "ANY",
+        "original_destination_address": "35.254.1.1",
+        "original_service": "ANY",
+        "translated_source_address": "92.234.147.1",
+        "translated_destination_address": "Original",
+        "translated_service": "Original",
+        "comments": "NAT to public routeable",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "9",
+        "action": "Delete",
+        "rule_id": "Audit_PCR_2343",
+        "original_source_zone": "VLAN12",
+        "original_destination_zone": "VLAN13",
+        "original_source_address": "10.2.3.15",
+        "original_destination_address": "ANY",
+        "original_service": "ANY",
+        "translated_source_address": "192.168.0.25",
+        "translated_destination_address": "Original",
+        "translated_service": "Original",
+        "comments": "Remove auditor access NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw3/4"
+      },
+      {
+        "request_item": "10",
+        "action": "Remove From",
+        "rule_id": "3x",
+        "original_source_zone": "3x",
+        "translated_source_address": "3.1.98.22",
+        "comments": "Wrong IP was assigned to NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      },
+      {
+        "request_item": "11",
+        "action": "Add To",
+        "rule_id": "3x.124",
+        "original_destination_address": "10.0.0/16",
+        "translated_destination_address": "3.1.98.2",
+        "comments": "Replace Static NAT",
+        "firewall_policy": "ibm-hzlw-us-hafw1/2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "adUserId": {
+    "DEV": "497",
+    "STG": "100",
+    "PRD": "86",
+    "EU" : "10",
+    "RUH" : "7"
+  },
+
+  "adUserName":
+  {
+    "DEV" : "ndewan",
+    "STG" : "ndewan",
+    "PRD" : "ndewan",
+    "EU"  : "ndewan",
+    "RUH" : "ndewan"
+  }
+}

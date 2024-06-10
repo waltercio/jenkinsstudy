@@ -1,0 +1,9 @@
+{
+
+	"customerAndDeviceId": {
+		"DEV": "?customerId=CID001287&deviceId=PR0000000015157",
+		"STG": "?customerId=CID001287&deviceId=PR0000000015157",
+		"PRD": "?customerId=CID001287&deviceId=PR0000000015157"
+	}
+
+}

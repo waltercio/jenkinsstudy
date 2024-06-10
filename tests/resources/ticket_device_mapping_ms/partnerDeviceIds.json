@@ -1,0 +1,9 @@
+{
+	"partnerDeviceIds" : {
+    "DEV": ["CheckPoint2-ids-qa-partner","ASA@estreamer-log-gen-partner","ASA@estreamer2-log-gen-partner"],
+    "STG": ["PaloAlto-ids-qa","ATW6666666666677","IBM-ids-qa-test-devicepartner"],
+    "PRD": ["PaloAlto-ids-qa","ATW6666666666677","IBM-ids-qa-test-devicepartner"],
+    "EU": ["PaloAlto-ids-qa","ATW6666666666677","IBM-ids-qa-test-devicepartner"],
+	"RUH": ["PaloAlto-ids-qa","ATW6666666666677","IBM-ids-qa-test-devicepartner"]
+	}
+}

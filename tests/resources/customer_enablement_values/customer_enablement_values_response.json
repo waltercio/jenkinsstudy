@@ -1,0 +1,13 @@
+{
+  "keyValue": {
+    "DEV": "No",
+    "STG": "No",
+    "PRD": "No",
+    "EU": "No",
+    "RUH": "ruh01-prd-mrap-01a.sec.ibm.com"
+  },
+  "statusVal": "Active",
+  "field": "Misc Info",
+  "formName": "HD:Customer Detail",
+  "customerId": "P000000614"
+}

@@ -1,0 +1,12 @@
+{
+  "x-remoteip": "Local machine IP",
+  "sub": "Microservices",
+  "iss": "sec.ibm.com",
+  "privileged-user": false,
+  "username": "apesona_demo1",
+  "API_NAME": "authentication",
+  "customerId": "P000002820",
+  "partnerId": "CIDS705057",
+  "customerContactId": "PR0000000003514",
+  "user-realm": "CUSTOMER_CONTACT"
+}

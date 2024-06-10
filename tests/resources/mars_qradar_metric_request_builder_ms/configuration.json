@@ -1,0 +1,10 @@
+{
+    "endpointURL": {
+          "DEV": "https://mars-qradar-metric-request-builder.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/check",
+          "STG": "https://mars-qradar-metric-request-builder.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/check",
+          "PRD": "https://mars-qradar-metric-request-builder.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/check",
+          "EU": "https://mars-qradar-metric-request-builder.apps-priv.fra02-prd-ocp-04.cl.sec.ibm.com/check",
+          "RUH": "https://mars-qradar-metric-request-builder-ms.ruh01-prd.k8s.sec.ibm.com/check"
+      }
+  
+  }

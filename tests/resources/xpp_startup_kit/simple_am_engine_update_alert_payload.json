@@ -1,0 +1,24 @@
+{
+  "id": "${NEW_RULE_ID}",
+  "ruleName": "this is a test from QA automation - simple-am-engine-log",
+  "author": "qa-automation",
+  "logType": "alert",
+  "status": "${STATUS}",
+  "condition": "srcip:1.1.1.10",
+  "action": {
+      "type": "close",
+      "actionSetting": {
+          "workLog": "${WORKLOG}",
+          "priority": "Medium"
+      }
+  },
+  "notification": {
+      "type": "email",
+      "notificationSetting": null
+  },
+  "duration": "0",
+  "association": "false",
+  "ruleType": "null",
+  "_id": "${COUCH_DB_ID}",
+  "_rev": "${COUCH_DB_REV}"
+}

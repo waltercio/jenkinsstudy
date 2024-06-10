@@ -1,0 +1,30 @@
+{
+  "NAT Update": [
+    {
+      "request_item": "1",
+      "action": "Create",
+      "source_address": "192.168.12.1",
+      "destination_address": "255.255.255.12",
+      "service": "TCP/443",
+      "application": "SNow,.IBM.box.com",
+      "advance_security": "Apply Substandard_Policy",
+      "acl_action": "Accept",
+      "comments": "To allow traffic from one network to another on port 443",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "2",
+      "action": "Create",
+      "source_zone": "Inbound",
+      "destination_zone": "Outbound",
+      "source_address": "192.168.12.1",
+      "destination_address": "ANY",
+      "service": "TCP/443,TCP/80",
+      "application": "DancedanceRevolution.org",
+      "advance_security": "Dance_Fever_Protection_Suite",
+      "acl_action": "Deny",
+      "comments": "Protect Internal host from Boogie Fever",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    }
+  ]
+}

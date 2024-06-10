@@ -1,0 +1,12 @@
+{
+  "severityVal": "SEV1",
+  "issueDescription": "Wrong Issue Type will not work",
+  "issueType": "INVALID",
+  "customerId": "P000000614",
+  "securityAnalyst": "diegobs",
+  "statusVal" : "new",
+  "customerName": "QA Customer",
+  "contactEmail": "diegobs@br.ibm.com",
+  "contactName": "DIEGO QA",
+  "contactMethod": "Office"
+}

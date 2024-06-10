@@ -1,0 +1,273 @@
+{
+    "firewallPcrData": {
+        "Policy Update": [
+            {
+                "request_item": "1",
+                "action": "Create",
+                "source_address": "192.168.12.1",
+                "destination_address": "255.255.255.12",
+                "service": "TCP_443",
+                "application": "SNow,.IBM.box.com",
+                "advance_security": "Apply Substandard_Policy",
+                "acl_action": "Accept",
+                "comments": "To allow traffic from one network to another on port 443",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2,ajskd"
+            },
+            {
+                "request_item": "2",
+                "action": "Remove From",
+                "rule_id": "Example2.1",
+                "advance_security": "IPS_Standard_exceptions",
+                "comments": "Remove IPS profile from the rule",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "3",
+                "action": "Add To",
+                "rule_id": "Example2.25",
+                "source_address": "G_Admins",
+                "acl_action": "Deny",
+                "comments": "Add G_Admins group to rule Example2.25",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            },
+            {
+                "request_item": "4",
+                "action": "Delete",
+                "rule_id": "0c85ff7c-cc9f-794b-8a47-7559ab3edac7",
+                "source_address": "10.0.0.0/16",
+                "destination_address": "123.45.67.90/32",
+                "service": "ANY",
+                "advance_security": "N/A",
+                "comments": "Remove Audit Scanners after Audit",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            },
+            {
+                "request_item": "5",
+                "action": "Delete",
+                "rule_id": "0c85ff7c-cc9f-794b-8a47-7559ab3edac7",
+                "source_address": "10.0.0.0/17",
+                "destination_address": "123.45.67.90/32",
+                "service": "ANY",
+                "advance_security": "N/A",
+                "comments": "Remove Audit Scanners after Audit",
+                "firewall_policy": "ibm-hzlw-us-fw2"
+            }
+        ],
+        "NAT Update": [
+            {
+                "request_item": "1",
+                "action": "Create",
+                "original_source_address": "192.168.1.1",
+                "original_destination_address": "ANY",
+                "original_service": "ANY",
+                "translated_source_address": "10.1.2.4",
+                "translated_destination_address": "Original",
+                "translated_service": "",
+                "comments": "NAT internal host for MPLS",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "2",
+                "action": "Delete",
+                "rule_id": "Global NAT",
+                "original_source_address": "192.1.1.1",
+                "original_destination_address": "ANY",
+                "original_service": "ANY",
+                "translated_source_address": "110.1.2.5",
+                "translated_destination_address": "Original",
+                "translated_service": "Original",
+                "comments": "Remove old host",
+                "firewall_policy": "ibm-hzlw-us-hafw3/4"
+            },
+            {
+                "request_item": "3",
+                "action": "Remove From",
+                "rule_id": "Backend_Global",
+                "original_service": "TCP_80",
+                "comments": "Remove http NAT",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "4",
+                "action": "Add To",
+                "rule_id": "Frontend_Global",
+                "translated_destination_address": "3.25.125.98",
+                "comments": "Wrong IP was assigned to NAT",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            }
+        ],
+        "Route Update": [
+            {
+                "request_item": "1",
+                "action": "Delete",
+                "route_name": "Traffic to customer portal",
+                "network_address": "192.1.1.0",
+                "netmask": "255.255.255.128",
+                "gateway_nexthop": "10.1.2.5",
+                "comments": "Direct traffic over to the MPLS",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "2",
+                "action": "Create",
+                "route_name": "Traffic to customer portal",
+                "network_address": "10.0.1.0",
+                "netmask": "255.255.255.0",
+                "gateway_nexthop": "10.1.1.1",
+                "comments": "Direct traffic over to the VRF",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "3",
+                "action": "Create",
+                "route_name": "Traffic to customer portal",
+                "network_address": "10.25.56.0",
+                "netmask": "",
+                "gateway_nexthop": "10.1.2.5",
+                "comments": "Direct traffic over to the MPLS",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "4",
+                "action": "Delete",
+                "route_name": "Traffic to customer portal",
+                "network_address": "10.10.10.128",
+                "netmask": "255.255.255.128",
+                "gateway_nexthop": "192.2.25.1",
+                "comments": "Direct traffic to MSP",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            }
+        ],
+        "Interface Update": [
+            {
+                "request_item": "1",
+                "action": "Delete",
+                "interface_assignee": "Bond1",
+                "interface_address": "10.153.101.2",
+                "interface_netmask": "255.255.255.248",
+                "vip_address": "10.153.101.3",
+                "vlan_id": "101",
+                "comments": "External network connection through 3rd party vender",
+                "firewall_policy": "ibm-hzlw-us-hafw1/2"
+            },
+            {
+                "request_item": "2",
+                "action": "Delete",
+                "interface_assignee": "eth3",
+                "interface_address": "10.153.1.100",
+                "interface_netmask": "255.255.255.255",
+                "comments": "Remove DR interface",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            },
+            {
+                "request_item": "3",
+                "action": "Create",
+                "interface_assignee": "eth3",
+                "interface_address": "10.154.1.100",
+                "interface_netmask": "255.255.255.255",
+                "comments": "Return interface to normal",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            },
+            {
+                "request_item": "4",
+                "action": "Create",
+                "interface_assignee": "eth2.143",
+                "interface_address": "10.15.1.2",
+                "interface_netmask": "255.255.255.252",
+                "vlan_id": "143",
+                "comments": "New VLAN for app data",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            }
+        ],
+        "Object Update": [
+            {
+                "request_item": "1",
+                "action": "Create",
+                "object_type": "Host",
+                "object_name": "H_10.1.1.1",
+                "action_items": "10.1.1.1",
+                "comments": "Create host with IP 10.1.1.1",
+                "firewall_policy": "ibm-hzlw-us-fw1"
+            },
+            {
+                "request_item": "2",
+                "action": "Add To",
+                "object_type": "Network",
+                "object_name": "Standard_IPS_Policy",
+                "action_items": "Set flags 35835 to off",
+                "comments": "Update check flags",
+                "firewall_policy": "ibm-hzlw-us-hbfw1/2"
+            },
+            {
+                "request_item": "3",
+                "action": "Remove From",
+                "object_type": "Service Group",
+                "object_name": "Internal_Host",
+                "action_items": "H_10.1.22.91,H_10.1.22.91",
+                "comments": "Game timer up",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            },
+            {
+                "request_item": "4",
+                "action": "Delete",
+                "object_type": "Service",
+                "object_name": "Substandard_Policy",
+                "action_items": "Entire Policy",
+                "comments": "Remove old DLP policy",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            }
+        ],
+        "VPN Update": [
+            {
+                "request_item": "1",
+                "action": "Modify",
+                "vpn_peer_ip": "32.45.95.252",
+                "options": "Phase1 Data Integrity",
+                "action_items": "SHA256",
+                "comments": "Please change Phase1 Data Integrity from SHA1 to SHA256",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            },
+            {
+                "request_item": "2",
+                "action": "Remove From",
+                "vpn_peer_ip": "12.0.25.1",
+                "options": "Encryption Domain",
+                "action_items": "10.0.0.0/8",
+                "comments": "Please remove 10.0.0.0/8 from Encryption Domain of peer",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            },
+            {
+                "request_item": "3",
+                "action": "Add To",
+                "vpn_peer_ip": "12.0.25.1",
+                "options": "Encryption Domain",
+                "action_items": "192.168.1.1,192.168.1.2,192.168.1.3,192.168.1.4,192.168.11.5",
+                "comments": "Please add new IPs to Encryption Domain",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            }
+        ],
+        "New VPN Request": [
+            {
+                "request_item": "1",
+                "vpn_name": "APEX_VPN",
+                "remote_peer_ip": "34.85.99.12",
+                "remote_peer_enc_domain": "10.10.10.0/24,10.20.20.0/24,10.30.30.0/24",
+                "local_peer_ip": "92.198.3.56",
+                "local_peer_enc_domain": "VPN_EncDom",
+                "ike_version": "IKEv2",
+                "preshared_secret": "Disabled",
+                "ike_encryption": "AES-256",
+                "ike_integrity": "SHA2-256 (IKE2 Only)",
+                "ike_key_lifetime_sec": "86400",
+                "ike_diffie_hellman_grp": "14",
+                "ike_aggressive_mode": "Disable",
+                "ipsec_encryption": "AES-256",
+                "ipsec_integrity": "SHA2-256 (IKE2 Only)",
+                "ipsec_key_lifetime_sec": "28800",
+                "ipsec_diffie_hellman_grp": "Disabled",
+                "comments": "Pre-shared Secret will be provided over scheduled meeting",
+                "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "alert_id": 0,
+    "alertscore_qseverity": 0,
+    "magnitude": 0,
+    "alert_create_date": "string",
+    "event_count": 0,
+    "event_names": "string",
+    "siem_rule_name": "string",
+    "event_vendors": "string",
+    "event_groups": "string",
+    "sip_int": 0
+  }
+]

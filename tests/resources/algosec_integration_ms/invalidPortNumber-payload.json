@@ -1,0 +1,26 @@
+{
+  "Policy Update": [
+    {
+      "request_item": "9",
+      "action": "Create",
+      "source_address": "10.10.10.11",
+      "destination_address": "ANY",
+      "service": "tcp/65537",
+      "application": "ANY",
+      "acl_action": "Accept",
+      "comments": "",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "9",
+      "action": "Create",
+      "source_address": "10.10.10.12",
+      "destination_address": "ANY",
+      "service": "udp/138",
+      "application": "ANY",
+      "acl_action": "Accept",
+      "comments": "",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "baseURL": {
+    "DEV": "https://cs-data-collector-sk-xpp.apps-priv.dal09-dev-ocp-02.cl.sec.ibm.com/",
+    "STG": "https://cs-data-collector-sk-xpp.cp4s-vpc02-84cdbceaaccb3d6ee156de8fb22691e4-0000.eu-de.containers.appdomain.cloud/",
+    "ANZ": "https://cs-data-collector-sk-xpp.apps-priv.syd05-prd-ocp-01.cl.sec.ibm.com/",
+    "US-SOC": "https://cs-data-collector-sk-xpp.apps-priv.wdc03-prd-ocp-01.cl.sec.ibm.com/"
+  },
+  "deviceId": {
+    "DEV": "PRD00007",
+    "STG": "PRD00007",
+    "ANZ": "PRD00007",
+    "US-SOC": "PRD00007"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "username": "qams",
+    "ipAddresses": "0.0.0.0-255.255.255.255",
+    "authenticationSource": "ACTIVE_DIRECTORY",
+    "applicationName": "qams_token"
+}

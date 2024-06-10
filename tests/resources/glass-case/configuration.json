@@ -1,0 +1,13 @@
+{
+    "baseURL": {
+        "DEV": "https://glass-cases.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/api/v1/",
+        "STG": "https://glass-cases.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/api/v1/",
+        "PRD": "https://glass-cases.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/api/v1/",
+        "EU": "https://glass-cases.apps-priv.fra02-prd-ocp-04.cl.sec.ibm.com/api/v1/",
+        "RUH": 	"https://glass-cases.apps-priv.ruh01-prd-ocp-01.cl.sec.ibm.com/api/v1/",
+        "dal09-svcs": "https://dal09-dev-services.sec.ibm.com/micro/ai_alert_escalation_task/",
+        "stg-svcs": "https://stg-services.sec.ibm.com/micro/ai_alert_escalation_task/",
+        "atl-svcs": "https://services.sec.ibm.com/micro/ai_alert_escalation_task/"
+    }
+}
+  

@@ -1,0 +1,198 @@
+{
+  "Policy Update": [
+    {
+      "request_item": "1",
+      "action": "Create",
+      "source_address": "192.168.12.1",
+      "destination_address": "255.255.255.12",
+      "service": "TCP/443",
+      "application": "SNow,.IBM.box.com",
+      "advance_security": "Apply Substandard_Policy",
+      "acl_action": "Accept",
+      "comments": "To allow traffic from one network to another on port 443",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "2",
+      "action": "Add To",
+      "rule_id": "Example2.25",
+      "source_address": "G_Admins",
+      "destination_address": "BackendServers",
+      "service": "ANY",
+      "comments": "Add G_Admins group to rule Example2.25",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "3",
+      "action": "Delete",
+      "rule_id": "CF9B1CA6-E509-4AF3-949F-927A342B2232",
+      "source_address": "10.0.0.0/16",
+      "destination_address": "123.45.67.90/32",
+      "service": "ANY",
+      "advance_security": "N/A",
+      "acl_action": "Deny",
+      "comments": "Remove Audit Scanners after Audit",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "4",
+      "action": "Create",
+      "source_zone": "Inbound",
+      "destination_zone": "Outbound",
+      "source_address": "H_10.1.1.3",
+      "destination_address": "H_10.1.1.1",
+      "service": "TCP/443,TCP/80",
+      "application": "DancedanceRevolution.org",
+      "advance_security": "Dance_Fever_Protection_Suite",
+      "acl_action": "Deny",
+      "comments": "Protect Internal host from Boogie Fever",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "5",
+      "action": "Create",
+      "source_address": "10.2.2.5,10.2.2.6,10.2.2.7,10.3.2.5,10.3.2.6",
+      "destination_address": "255.255.255.100",
+      "service": "Service1",
+      "application": "SNow,.IBM.box.com",
+      "advance_security": "Apply Substandard_Policy",
+      "acl_action": "Accept",
+      "comments": "Add new servers to ExtraNet rule",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "6",
+      "action": "Create",
+      "source_address": "N_11.1.1.0",
+      "destination_address": "10.0.1.0/16",
+      "service": "ICMP/220",
+      "application": "ANY",
+      "acl_action": "Deny",
+      "comments": "Remove Dev Network from rule",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "7",
+      "action": "Add To",
+      "rule_id": "Example2.2",
+      "source_address": "G_Admins",
+      "destination_address": "BackendServers",
+      "service": "ANY",
+      "comments": "Add new backend server's group to rule",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "8",
+      "action": "Create",
+      "source_address": "ANY",
+      "destination_address": "ANY",
+      "service": "Paid_Service",
+      "acl_action": "Deny",
+      "comments": "clean up Example3 rule",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "9",
+      "action": "Create",
+      "source_address": "Paid_host",
+      "destination_address": "ANY",
+      "service": "ANY",
+      "application": "ANY",
+      "acl_action": "Accept",
+      "comments": "Access for Paid host",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    }
+  ],
+  "Object Update": [
+    {
+      "request_item": "1",
+      "action": "Create",
+      "object_type": "Host",
+      "object_name": "H_10.1.1.1",
+      "action_items": "10.1.1.1",
+      "comments": "Create host with IP 10.1.1.1",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "2",
+      "action": "Create",
+      "object_type": "Host",
+      "object_name": "H_10.1.1.2",
+      "action_items": "10.1.1.2",
+      "comments": "Create host with IP 10.1.1.2",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "3",
+      "action": "Create",
+      "object_type": "Host",
+      "object_name": "H_10.1.1.3",
+      "action_items": "10.1.1.3",
+      "comments": "Create host with IP 10.1.1.3",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "4",
+      "action": "Create",
+      "object_type": "Network",
+      "object_name": "N_11.1.1.0",
+      "action_items": "11.1.1.0 255.255.255.0",
+      "comments": "Create host with IP 10.1.1.4",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "5",
+      "action": "Create",
+      "object_type": "Network Group",
+      "object_name": "Paid_host",
+      "action_items": "H_10.1.1.1,H_10.1.1.2,H_10.1.1.3",
+      "comments": "Create group object",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "6",
+      "action": "Create",
+      "object_type": "Network",
+      "object_name": "N_12.1.3.0",
+      "action_items": "12.1.3.0 255.255.0.0",
+      "comments": "Remove network 12.1.3.0/24",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "7",
+      "action": "Create",
+      "object_type": "Service",
+      "object_name": "Service3",
+      "action_items": "ICMP/100",
+      "comments": "Create service object",
+      "firewall_policy": "atl-msslab-R81.20_fw"
+    },
+    {
+      "request_item": "8",
+      "action": "Create",
+      "object_type": "Service",
+      "object_name": "Service2",
+      "action_items": "UDP/100",
+      "comments": "Create service objett",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "9",
+      "action": "Create",
+      "object_type": "Service",
+      "object_name": "Service1",
+      "action_items": "TCP/111",
+      "comments": "Create service objett",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    },
+    {
+      "request_item": "10",
+      "action": "Create",
+      "object_type": "Service Group",
+      "object_name": "Paid_Service",
+      "action_items": "Service1,Service2",
+      "comments": "Create service object",
+      "firewall_policy": "atl-msslab-pa-vm-v10"
+    }
+  ]
+}

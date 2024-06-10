@@ -1,0 +1,23 @@
+{
+    "evidence": [
+        {
+            "sourceIp": "192.168.10.10",
+            "sourcePort": 32456,
+            "tags": [
+                "Authorized Scan"
+            ],
+            "actionChecked": true,
+            "note": "This is a note string that can be modified/edited"
+        },
+        {
+            "destinationIp": "10.65.184.75",
+            "destinationPort": 32456,
+            "tags": [
+                "Client Special Instructions",
+                "Critical Server"
+            ],
+            "actionChecked": true,
+            "note": "This is a note string that can be modified/edited"
+        }
+    ]
+  }

@@ -1,0 +1,31 @@
+[
+  {
+    "alert_id": 279336,
+    "remedy_customer_id": "CID001696",
+    "industry": "testing",
+    "sip_int": 0,
+    "dip_int": 4,
+    "sip_ext": 1,
+    "dip_ext": 0,
+    "mitre_tactic": "Initial Access",
+    "log_sources": "unknown",
+    "siem_vendor": "XPS",
+    "siem_rule_name": "XPS_Unauth_Access",
+    "ai_alert_soc_status": 0,
+    "is_disagreement": 0,
+    "alertscore_qseverity": 10,
+    "magnitude": 0,
+    "alert_create_date": "2022-04-30 23:50:19",
+    "log_type": "ids",
+    "event_count": 9,
+    "rule_fire_count": 9,
+    "src_geo": "JP",
+    "dst_geo": "unknown",
+    "event_names": "HTTP: CGI Escape Character Directory Traversal Vulnerability",
+    "event_vendors": "Intrushield",
+    "event_groups": "Unauth_Access",
+    "eventFlow": "ExtToInt",
+    "description": ".",
+    "qrEvent_payload": "unknown"
+  }
+]

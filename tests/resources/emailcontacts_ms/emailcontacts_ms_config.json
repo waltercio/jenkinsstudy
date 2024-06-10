@@ -1,0 +1,49 @@
+{
+
+	"STG": {
+		"deviceIds": ["PR0000000024813", "STG000008082039"],
+		"emailContactsMsForDeviceIdsURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813",
+		"emailContactsMsForContactRolesForVSOCPortalURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=VSOC_Portal",
+		"emailContactsMsForCustomerContactRolesForSOCConsoleORAIURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=SOC_Console_OR_AI",
+		"emailContactsMsForManagedSIEMrulePolicyAttremailGlobalContactstrueURN": "micro/emailcontacts/auto_escalation_contacts?customerId=CID001696&deviceIds=P00000008028160&serviceLine=Managed SIEM&rulePolicyAttr_emailGlobalContacts=true&rulePolicyAttr_emailSiteContacts=2&rulePolicyAttr_emailOtherContacts=true&rulePolicyAttr_emailOtherContactsList=test, test@test.com"
+		
+	},
+	
+	"PRD": {
+		"deviceIds": ["PR0000000024813", "P00000008080493"],
+		"emailContactsMsForDeviceIdsURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813",
+		"emailContactsMsForContactRolesForVSOCPortalURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=VSOC_Portal",
+		"emailContactsMsForCustomerContactRolesForSOCConsoleORAIURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=SOC_Console_OR_AI",
+		"emailContactsMsForManagedSIEMrulePolicyAttremailGlobalContactstrueURN": "micro/emailcontacts/auto_escalation_contacts?customerId=CID001696&deviceIds=P00000008028160&serviceLine=Managed SIEM&rulePolicyAttr_emailGlobalContacts=true&rulePolicyAttr_emailSiteContacts=2&rulePolicyAttr_emailOtherContacts=true&rulePolicyAttr_emailOtherContactsList=test, test@test.com"
+		
+	},
+	
+	"EU": {
+		"deviceIds": ["PR0000000024813", "STG000008082039"],
+		"emailContactsMsForDeviceIdsURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813",
+		"emailContactsMsForContactRolesForVSOCPortalURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=VSOC_Portal",
+		"emailContactsMsForCustomerContactRolesForSOCConsoleORAIURN": "micro/emailcontacts/api/v1?customerId=CID001696&deviceIds=PR0000000024813&customerContactRolesFor=SOC_Console_OR_AI",
+		"emailContactsMsForManagedSIEMrulePolicyAttremailGlobalContactstrueURN": "micro/emailcontacts/auto_escalation_contacts?customerId=CID001696&deviceIds=P00000008028160&serviceLine=Managed SIEM&rulePolicyAttr_emailGlobalContacts=true&rulePolicyAttr_emailSiteContacts=2&rulePolicyAttr_emailOtherContacts=true&rulePolicyAttr_emailOtherContactsList=test, test@test.com"
+		
+	},
+	
+	"deviceIds": {
+		"DEV": ["P00000008078469", "PR0000000000592"],
+		"PRD": ["P00000008041994", "STG000008070451"],
+		"STG": ["PR0000000024813", "STG000008082039"],
+		"EU": ["PR0000008068433", "PR0000000024813"]
+	},
+
+	"emailContactsMsForParametersNotNalidError400URN": "micro/emailcontacts",
+
+	"emailContactsMsForFailedToFindEmailContactsError500URN": "micro/emailcontacts/CID111111",
+
+	"emailContactsMsFor400BadRequestURN": "micro/emailcontacts/SSˆ%$ˆ%",
+
+	"emailContactsMsRequestForCustomerContactOnServicesURN": "rest/CustomerContact?customerId=CID001696&format=json&statuses=ACTIVE&limit=5000",
+
+	"headerCheckAssertion": {
+		"statusCode": "200"
+	}
+
+}

@@ -1,0 +1,11 @@
+{
+	"priorityVal": "Low (3)",
+	"shortDescription": "Testing XPS-170450_1",
+	"statusVal": "new",
+	"customerId": "KSAP000000614",
+	"customerName": "KSA QA Customer",
+	"assignmentGroup": "IBM-SD-Service Desk",
+	"contactEmail": "wobc@br.ibm.com",
+	"subCategory": "Execution. TA0002",
+	"securityAnalyst": "wobc"
+}

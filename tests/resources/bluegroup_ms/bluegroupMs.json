@@ -1,0 +1,38 @@
+{
+  "GroupName1": {
+    "DEV": "RedPortal QA Dev",
+    "STG": "RedPortal QA Dev",
+    "PRD": "RedPortal QA Dev",
+    "EU": "RedPortal QA Dev",
+    "RUH": ""
+  },
+  "GroupName2": {
+    "DEV": "RedPortal Admin Dev",
+    "STG": "RedPortal Admin Dev",
+    "PRD": "RedPortal Admin Dev",
+    "EU": "RedPortal Admin Dev",
+    "RUH": ""
+  },
+
+  "UserEmail": {
+    "DEV": "shubhede@in.ibm.com",
+    "STG": "shubhede@in.ibm.com",
+    "PRD": "shubhede@in.ibm.com",
+    "EU": "shubhede@in.ibm.com",
+    "RUH": ""
+  },
+  "invalidUserEmail": {
+    "DEV": "hsisodi1@in.ibm.com",
+    "STG": "hsisodi1@in.ibm.com",
+    "PRD": "hsisodi1@in.ibm.com",
+    "EU": "hsisodi1@in.ibm.com",
+    "RUH": ""
+  },
+  "invalidGroup": {
+    "DEV": "xyz",
+    "STG": "xyz",
+    "PRD": "xyz",
+    "EU": "xyz",
+    "RUH": ""
+  }
+}

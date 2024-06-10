@@ -1,0 +1,96 @@
+{
+  "payload": {
+    "VPN Update": [
+      {
+        "request_item": "1",
+        "action": "Modify",
+        "vpn_peer_ip": "32.45.95.252",
+        "options": "Phase1 Data Integrity",
+        "action_items": "SHA256",
+        "comments": "Please change Phase1 Data Integrity from SHA1 to SHA256",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "2",
+        "action": "Remove From",
+        "vpn_peer_ip": "12.0.25.1",
+        "options": "Encryption Domain",
+        "action_items": "10.0.0.0/8",
+        "comments": "Please remove 10.0.0.0/8 from Encryption Domain of peer",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "3",
+        "action": "Modify",
+        "vpn_peer_ip": "12.0.25.1",
+        "options": "Aggressive mode",
+        "action_items": "Disable",
+        "comments": "Please disable Aggressive mode",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "4",
+        "action": "Modify",
+        "vpn_peer_ip": "11.1.9.13",
+        "options": "NAT Transversal",
+        "action_items": "Enable",
+        "comments": "Please enable NAT-T mode",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "5",
+        "action": "Modify",
+        "vpn_peer_ip": "11.1.9.13",
+        "options": "Perfect Forward Secrecy (Phase2)",
+        "action_items": "DH group 14",
+        "comments": "Please enable PFS, group 14",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "6",
+        "action": "Add To",
+        "vpn_peer_ip": "12.0.25.1",
+        "options": "Encryption Domain",
+        "action_items": "192.168.1.1,192.168.1.2,192.168.1.3,192.168.1.4,192.168.11.5",
+        "comments": "Please add new IPs to Encryption Domain",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "7",
+        "action": "Modify",
+        "vpn_peer_ip": "32.45.95.252",
+        "options": "Phase2 Data Integrity",
+        "action_items": "SHA512",
+        "comments": "Please change Phase1 Data Integrity from SHA256 to SHA512",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "8",
+        "action": "Modify",
+        "vpn_peer_ip": "32.45.95.252",
+        "options": "Encryption Method",
+        "action_items": "IKEv2",
+        "comments": "Please change IKE version to 2",
+        "firewall_policy": "ibm-hzlw-us-hbfw3/4"
+      },
+      {
+        "request_item": "9",
+        "action": "Modify",
+        "vpn_peer_ip": "32.45.95.252",
+        "options": "Phase2 Data Integrity",
+        "action_items": "SHA512",
+        "comments": "Please change Phase1 Data Integrity from SHA256 to SHA512",
+        "firewall_policy": "ibm-hzlw-us-hbfw1/2"
+      },
+      {
+        "request_item": "10",
+        "action": "Modify",
+        "vpn_peer_ip": "32.45.95.252",
+        "options": "Encryption Method",
+        "action_items": "IKEv2",
+        "comments": "Please change IKE version to 2",
+        "firewall_policy": "ibm-hzlw-us-hbfw1/2"
+      }
+    ]
+  }
+}

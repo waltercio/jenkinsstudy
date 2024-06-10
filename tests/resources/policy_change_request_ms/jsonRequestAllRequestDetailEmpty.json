@@ -1,0 +1,12 @@
+{
+    "issueDescription": "Allow Dallas office to reach Frankfurt-12 segment.",
+    "deviceNames": [
+        "10.10.10.121"
+    ],
+    "partnerDeviceIDs": [],
+    "customerTicketID": "W443-66011",
+    "blockEventNotification": "Block",
+    "requestDetails": {
+
+            }
+}

@@ -1,0 +1,17 @@
+{
+	"usernameResponse": {
+		"DEV": "wobc",
+		"STG": "wobc",
+		"PRD": "wobc",
+		"EU": "wobc",
+		"RUH": "wobc"
+	},
+	
+	"userIDResponse": {
+		"DEV": "DEV000000003639",
+		"STG": "PR0000000004007",
+		"PRD": "PR0000000004007",
+		"EU": "EU0000000004997",
+		"RUH": "ED0000000002487"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "severityVal": "SEV1",
+  "issueDescription": "Ticket created by automated tests",
+  "issueType": "SIEM Anomaly",
+  "customerId": "KSAP000000614",
+  "securityAnalyst": "abcd",
+  "customerName": "KSA QA Customer"
+}

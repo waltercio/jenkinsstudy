@@ -1,0 +1,10 @@
+{
+    "alertId": "12345", 
+    "customerId": "CID001696", 
+    "pendingActions": "GLASS_PENDING", 
+    "status": "NEW", 
+    "caseId": "426", 
+    "ticketId": "SOCY001234567891", 
+    "deviceId": "PR12345", 
+    "ruleId": "1234"
+  } 

@@ -1,0 +1,21 @@
+{
+    "test":{
+      "qradarHost": "207.231.141.101",
+      "apiVersion": "10.1",
+      "filter": "id > 1350000",
+      "fields": "id",
+      "domainId": "",
+      "start": "0",
+      "sort": "desc(id)",
+      "sort2": "desc(id)"
+    },
+    "test2":{
+      "qradarHost": "207.231.141.101",
+      "apiVersion": "10.1",
+      "filter": "id > 1350000",
+      "fields": "id",
+      "domainId": "5",
+      "start": "0",
+      "sort": "asc(id)"
+    }
+  }

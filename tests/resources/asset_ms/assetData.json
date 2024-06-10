@@ -1,0 +1,9 @@
+{
+  "assetData": {
+    "DEV": "remedyCustomerId=STG7000025&hostName=ATL-STG-ULA-01A&size=1",
+    "STG": "remedyCustomerId=STG7000025&hostName=ATL-STG-ULA-01A&size=1",
+    "PRD": "remedyCustomerId=PR00002997&hostName=mdrsquad-lab90-CBCloud&size=1",
+    "EU": "remedyCustomerId=STG7000025&hostName=ATL-STG-ULA-01A&size=1",
+    "RUH": "remedyCustomerId=STG7000025&hostName=ATL-STG-ULA-01A&size=1"
+  }
+}

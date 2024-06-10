@@ -1,0 +1,15 @@
+{
+    "operatingSystem": "Cisco AMP 6.5",
+    "siteId": "KSA00005011976",
+	"installedMemory": "2048",
+	"managementCollector": "Managed",
+	"notes": "SafeToDeleteCustomerNotesNoUpdate",
+	"customerHostName": "SafeToDeleteCustomerHostNameNoUpdate",
+	"snmpContextName": "snmpContextNameTest1NoUpdate",
+	"snmpEnabled": "true",
+	"snmpPrivateProtocol": "DES",
+	"snmpVersion": "1",
+	"snmpAuthType": "SHA",
+	"snmpEngineId": "SNMPEngineIdTest1NoUpdate",
+    "eventCollectorIp": "10.10.10.11"
+}

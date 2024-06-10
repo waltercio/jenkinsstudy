@@ -1,0 +1,29 @@
+[
+  {
+    "alert_id": 0,
+    "alertscore_qseverity": 0,
+    "magnitude": 0,
+    "alert_create_date": "string",
+    "event_count": 0,
+    "event_names": "string",
+    "siem_rule_name": "string",
+    "event_vendors": "string",
+    "event_groups": "string",
+    "sip_int": 0,
+    "dip_int": 0,
+    "sip_ext": 0,
+    "dip_ext": 0,
+    "log_sources": "string",
+    "mitre_tactic": "string",
+    "siem_vendor": "string",
+    "remedy_customer_id": "string",
+    "industry": "string",
+    "log_type": "string",
+    "rule_fire_count": 0,
+    "src_geo": "string",
+    "dst_geo": "string",
+    "description": "string",
+    "eventFlow": "string",
+    "qrEvent_payload": "string"
+  }
+]

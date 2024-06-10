@@ -1,0 +1,20 @@
+{
+	"auraCredentialsBaseUrl": {
+		"DEV": "https://aura-credentials-ms-xpp.apps-priv.dal09-dev-ocp-01.cl.sec.ibm.com/",
+		"STG": "https://aura-credentials-ms-xpp.apps-priv.atl-stg-ocp-01.cl.sec.ibm.com/",
+		"PRD": "https://aura-credentials-ms-xpp.apps-priv.atl-prd-ocp-01.cl.sec.ibm.com/"
+		
+	},
+	"auraMigrationBaseUrl": {
+		"DEV": "93",
+		"STG": "",
+		"PRD": ""
+		
+	},
+	"auraUserBaseUrl": {
+		"DEV": "93",
+		"STG": "",
+		"PRD": ""
+		
+	}
+}

@@ -1,0 +1,94 @@
+{
+  "baseURL": {
+		"DEV": "https://dal09-dev-services.sec.ibm.com/",
+		"STG": "https://stg-services.sec.ibm.com/",
+		"PRD": "https://services.sec.ibm.com/",
+		"EU": "https://eu-services.sec.ibm.com/",
+		"RUH": "https://ruh-services.sec.ibm.com/"
+	},
+	"kafkaPublisherURL": {
+		"DEV": "https://dal09-dev-services.sec.ibm.com/micro/kafka_generic_publisher/",
+		"STG": "https://stg-services.sec.ibm.com/micro/kafka_generic_publisher/",
+		"PRD": "https://services.sec.ibm.com/micro/kafka_generic_publisher/",
+		"EU": "https://eu-services.sec.ibm.com/micro/kafka_generic_publisher/",
+		"RUH": "https://ruh-services.sec.ibm.com/micro/kafka_generic_publisher/"
+	},
+	"athenaBaseURL": {
+		"DEV": "https://athena.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/",
+		"STG": "https://athena.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/",
+		"PRD": "https://athena.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/"
+	},
+	"athenaTrainingURL": {
+		"DEV": "https://athena-training.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/",
+		"STG": "https://athena-training.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/",
+		"PRD": "https://athena-training.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/"
+	},
+
+	"marsEndpointURL": {
+		"DEV": "https://dal09-dev-services.sec.ibm.com/micro/mars-azure-native-request-builder/activityLogs",
+		"STG": "https://stg-services.sec.ibm.com/micro/mars-azure-native-request-builder/activityLogs",
+		"PRD": "https://services.sec.ibm.com/micro/mars-azure-native-request-builder/activityLogs",
+		"EU": "https://eu-services.sec.ibm.com/micro/mars-azure-native-request-builder/activityLogs",
+		"RUH": "https://ruh-services.sec.ibm.com/micro/mars-azure-native-request-builder/activityLogs"
+	},
+
+	"marsDome9EndpointURL": {
+		"DEV": "https://dal09-dev-services.sec.ibm.com/micro/mars-dome9-request-builder-ms/",
+		"STG": "https://stg-services.sec.ibm.com/micro/mars-dome9-request-builder-ms/",
+		"PRD": "https://services.sec.ibm.com/micro/mars-dome9-request-builder-ms/",
+		"EU": "https://eu-services.sec.ibm.com/micro/mars-dome9-request-builder-ms/",
+		"RUH": "https://ruh-services.sec.ibm.com/micro/mars-dome9-request-builder-ms/"
+	},
+	"vaultURL":	"https://dev-vault.sec.ibm.com:8200/",
+
+	"auraSyncBaseUrl": {
+		"DEV": "https://aura-credentials-sync.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/aura-credentials-sync-ms/",
+		"STG": "https://aura-credentials-sync.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/aura-credentials-sync-ms/",
+		"PRD": "https://aura-credentials-sync.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/aura-credentials-sync-ms/",
+		"EU" : "https://aura-credentials-sync.apps-priv.fra02-prd-ocp-04.cl.sec.ibm.com/aura-credentials-sync-ms/",
+		"RUH": "https://aura-credentials-sync.apps-priv.ruh01-prd-ocp-01.cl.sec.ibm.com/aura-credentials-sync-ms/"
+
+	},
+	"auraUserBaseURL" : {
+		"DEV" : "https://aura-user.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/users/",
+		"STG" : "https://aura-user.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/users/",
+		"PRD" : "https://aura-user.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/users/",
+		"EU"  : "https://aura-user.apps-priv.fra02-prd-ocp-04.cl.sec.ibm.com/users/",
+		"RUH" : "https://aura-user-ms-xpp.apps-priv.ruh01-prd-ocp-01.cl.sec.ibm.com/users/"
+	},
+
+	"auraCredentialsBaseUrl" : {
+		"DEV": "https://aura-credentials.apps-priv.dal09-dev-ocp-04.cl.sec.ibm.com/",
+		"STG": "https://aura-credentials.apps-priv.atl-stg-ocp-02.cl.sec.ibm.com/",
+		"PRD": "https://aura-credentials.apps-priv.atl-prd-ocp-05.cl.sec.ibm.com/",
+		"EU" : "https://aura-credentials.apps-priv.fra02-prd-ocp-04.cl.sec.ibm.com/",
+		"RUH": "https://aura-credentials-ms-xpp.apps-priv.ruh01-prd-ocp-01.cl.sec.ibm.com/"
+	},
+
+	"auraSecretServerUrl" : {
+
+		"DEV" : "https://d09-dev-iam-01a.sec.ibm.com/SecretServer/",
+		"STG" : "https://stg-pam.sec.ibm.com/SecretServer/",
+		"PRD" : "https://pam.sec.ibm.com/SecretServer/",
+		"EU"  : "https://eu-pam.sec.ibm.com/SecretServer/",
+		"RUH" : "https://ruh-pam.sec.ibm.com/SecretServer/"
+	},
+
+	"elasticSearchUrl" : {
+
+		"DEV" : "https://dal09-dev-esmasdata-05b.sec.ibm.com:9200/secretdetails/_search?size=1",
+		"STG" : "https://atl-stg-esmasdata-05b.sec.ibm.com:9200/secretdetails/_search?size=1",
+		"PRD" : "https://atl-prd-esmasdata-05b.sec.ibm.com:9200/secretdetails/_search?size=1",
+		"EU"  : "https://fra02-prd-esmasdata-05b.sec.ibm.com:9200/secretdetails/_search?size=1",
+		"RUH" : "https://ruh01-prd-esmasdata-05a.sec.ibm.com:9200/secretdetails/_search?size=1"
+	},
+
+	"elasticCredentialManagerUrl" : {
+		"DEV" : "https://dal09-dev-esmasdata-05b.sec.ibm.com:9200/credentialmanagerdetails/_search?size=1",
+		"STG" : "https://atl-stg-esmasdata-05b.sec.ibm.com:9200/credentialmanagerdetails/_search?size=1",
+		"PRD" : "https://atl-prd-esmasdata-05b.sec.ibm.com:9200/credentialmanagerdetails/_search?size=1",
+		"EU"  : "https://fra02-prd-esmasdata-05a.sec.ibm.com:9200/credentialmanagerdetails/_search?size=1",
+		"RUH" : "https://ruh01-prd-esmasdata-05a.sec.ibm.com:9200/credentialmanagerdetails/_search?size=1"
+	}
+
+}

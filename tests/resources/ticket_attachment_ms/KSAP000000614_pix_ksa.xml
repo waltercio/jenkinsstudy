@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<policy>
+<interface name="outside" >
+<rule id="1" data="access-list from-outside permit ip 211.19.0.0 255.255.0.0 any " ></rule> 
+</interface>
+<interface name="inside" >
+<rule id="1" data="access-list from-inside permit ip 172.16.0.0 255.255.0.0 172.16.0.0 255.255.0.0 " ></rule> 
+</interface>
+</policy>

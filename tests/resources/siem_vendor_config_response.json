@@ -1,0 +1,19 @@
+[
+{
+    "customerId": "CID001287",
+    "deviceId": {
+		"DEV": "PR0000000015157",
+		"STG": "PR0000000015157",
+		"PRD": "PR0000000015157"
+    },
+    "token": "QZUECmb0EGdWBaYTdDYBQJwEo3cJY8Hyx20JEQRV8Yo.",
+    "expiration": 1582206288294,
+    "url": "https://206.253.228.65:8443",
+    "timezone": "GMT",
+    "apiVersion": "6.9",
+    "pimPasswordStorage": "true",
+    "customProperties": {
+        "ArcsightConsoleDevice": "Yes"
+    }
+}
+]

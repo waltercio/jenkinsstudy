@@ -1,0 +1,8 @@
+{
+    "serverId": "QA-testing",
+    "module": "AI_LOGGEN",
+    "status": "SHUTDOWN",
+    "numberOfCPUs": 2,
+    "cpuSpeed": 3,
+    "loadAverage": 0.5
+} 

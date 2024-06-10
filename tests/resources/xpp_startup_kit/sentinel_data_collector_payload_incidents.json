@@ -1,0 +1,44 @@
+{
+	"device": {
+		"customerId": "CIDD706957",
+		"deviceId": "PRD00005",
+		"platform": "Sentinel"
+	},
+	"data": [{
+		"incident": {
+			"id": "/subscriptions/f4122767-4f74-4e66-96cc-fe9604c36ada/resourceGroups/sentinel_lab/providers/Microsoft.OperationalInsights/workspaces/sentinel-lab-analytics/providers/Microsoft.SecurityInsights/Incidents/77edfc1e-eea3-492f-97c7-eb7db7395f07",
+			"name": "77edfc1e-eea3-492f-97c7-eb7db7395f07",
+			"type": "Microsoft.SecurityInsights/Incidents",
+			"properties": {
+				"title": "SCE Test - Successful Logins From Different Hosts With The Same User (Operating Systems)",
+				"description": "Warning for possible sharing of a user account among multiple users\n",
+				"severity": "High",
+				"status": "New",
+				"owner": {
+					"objectId": null,
+					"email": null,
+					"assignedTo": null,
+					"userPrincipalName": null
+				},
+				"labels": [],
+				"firstActivityTimeUtc": "2021-12-15T13:09:51.9021981Z",
+				"lastActivityTimeUtc": "2021-12-15T14:09:51.9021981Z",
+				"lastModifiedTimeUtc": "2021-12-15T14:14:58.1433798Z",
+				"createdTimeUtc": "2021-12-15T14:14:58.1433798Z",
+				"incidentNumber": 908673,
+				"additionalData": {
+					"alertsCount": 1,
+					"bookmarksCount": 0,
+					"commentsCount": 0,
+					"alertProductNames": ["Azure Sentinel"],
+					"tactics": ["InitialAccess", "CredentialAccess"]
+				},
+				"relatedAnalyticRuleIds": ["/subscriptions/f4122767-4f74-4e66-96cc-fe9604c36ada/resourceGroups/sentinel_lab/providers/Microsoft.OperationalInsights/workspaces/sentinel-lab-analytics/providers/Microsoft.SecurityInsights/alertRules/78a0e1e6-6df4-4311-a909-d59a176c0af3"],
+				"incidentUrl": "https://portal.azure.com/#asset/Microsoft_Azure_Security_Insights/Incident/subscriptions/f4122767-4f74-4e66-96cc-fe9604c36ada/resourceGroups/sentinel_lab/providers/Microsoft.OperationalInsights/workspaces/sentinel-lab-analytics/providers/Microsoft.SecurityInsights/Incidents/77edfc1e-eea3-492f-97c7-eb7db7395f07",
+				"triggerThreshold": 0,
+				"suppressionEnabled": false,
+				"enabled": false
+			}
+		}
+	}]
+}

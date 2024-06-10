@@ -1,0 +1,6 @@
+tests:
+  - CssAutomationEngineMs # need to be reformatted
+  - EmailContactsMs # need to be reformatted
+  - MssResilientAppCircuitBreakerMs #app not deployed
+  - AtdsCloudPakEndToEnd # need to be reformatted
+  - AuraCredentialsMs # need to be reformatted

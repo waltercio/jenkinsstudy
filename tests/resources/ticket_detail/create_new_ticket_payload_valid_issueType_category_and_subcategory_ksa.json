@@ -1,0 +1,13 @@
+{
+	"priorityVal": "Low (3)",
+	"shortDescription": "Testing XPS-170450_1",
+	"statusVal": "new",
+	"issueType": "Malware (Malicious Code)",
+	"customerId": "KSAP000000614",
+	"customerName": "KSA QA Customer",
+	"assignmentGroup": "IBM-SD-Service Desk",
+	"contactEmail": "wobc@br.ibm.com",
+	"category": "Security Incident",
+	"subCategory": "Execution. TA0002",
+	"securityAnalyst": "wobc"
+}

@@ -1,0 +1,16 @@
+
+{
+
+    "customerId": {
+      "DEV": "P000000614",
+      "STG": "P000000614",
+      "PRD": "P000000614",
+      "EU": "P000000614"
+    },
+    "siemVendor": {
+      "DEV": "XPS",
+      "STG": "QRADAR",
+      "PRD": "AZURESENTINEL",
+      "EU": "QRADAR"
+    }
+  }

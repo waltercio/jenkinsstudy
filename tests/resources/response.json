@@ -1,0 +1,49 @@
+{
+    "xpsws_gateway": {
+        "id": {	
+			"DEV": "P000000614",
+			"STG": "P000000614",
+			"PRD": "P000000614",
+			"EU": "P000000614",
+			"RUH": "KSAP000000614"
+		},
+        "lastModifyDate": "Sun Oct 28 11:06:43 GMT 2018",
+        "statusVal": "Active",
+        "category": "Test",
+        "industry": "Food & Beverage Services",
+        "suspended": "false",
+        "csmReport": "true",
+        "pdrCount": "856",
+		"name": {	
+			"DEV": "QA Customer",
+			"STG": "QA Customer",
+			"PRD": "QA Customer",
+			"EU": "QA Customer",
+			"RUH": "KSA QA Customer"
+		},
+		"partnerId": {	
+			"DEV": "P000000613",
+			"STG": "P000000613",
+			"PRD": "P000000613",
+			"EU": "P000000613",
+			"RUH": "KSAP000000613"
+		},
+		"partnerName": {	
+			"DEV": "QA Partner",
+			"STG": "QA Partner",
+			"PRD": "QA Partner",
+			"EU": "QA Partner",
+			"RUH": "KSA QA Partner"
+		},
+        "theatreVal": "Americas",
+        "subTheatreAmericas": "Latin America",
+        "remedyAppsTime": "1540724804494"
+ },
+
+ "xpsws_gateway_conf": {
+        "code": "401",
+        "message": "User not authorized."
+ }
+
+
+}

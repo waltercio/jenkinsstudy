@@ -1,0 +1,29 @@
+{
+    "xpsws_gateway": {
+        "id": "P000000614",
+        "lastModifyDate": "Sun Oct 28 11:06:43 GMT 2018",
+        "mss_sort_statusVal": 0,
+        "statusVal": "Active",
+        "category": "Test",
+        "industry": "Food & Beverage Services",
+        "mss_sort_suspended": 0,
+        "suspended": "No",
+        "mss_sort_csmReport": 1,
+        "csmReport": "Yes",
+        "pdrCount": "856",
+        "name": "QA Customer",
+        "partnerId": "P000000613",
+        "partnerName": "QA Partner",
+        "mss_sort_theatreVal": 0,
+        "theatreVal": "Americas",
+        "subTheatreAmericas": "Latin America",
+        "remedyAppsTime": "1540724804494"
+ },
+
+ "xpsws_gateway_conf": {
+        "code": "401",
+        "message": "User not authorized."
+ }
+
+
+}

@@ -1,0 +1,40 @@
+{
+
+	"kubernetCheck": {
+		"URL": {
+			"DEV": "",
+			"STG": "https://api.atl-stg.k8s.sec.ibm.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login",
+			"PRD": "https://api.atl-prd.k8s.sec.ibm.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/pod?namespace=master",
+			"EU": "https://api.fra02-prd.k8s.sec.ibm.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/pod?namespace=master",
+			"RUH": "https://api.ruh01-prd-kubmin-01a.sec.ibm.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/pod?namespace=master"
+		},
+		"username": "admin",
+		"password": "password"
+	},
+	"gatewayCheckURL": {
+		"DEV": "https://dal09-dev-services.sec.ibm.com",
+		"STG": "https://stg-services.sec.ibm.com",
+		"PRD": "https://services.sec.ibm.com",
+		"EU": "https://eu-services.sec.ibm.com",
+		"RUH": "https://ruh-services.sec.ibm.com"
+	},
+
+	"header": {
+		"contentType": "application/json"
+	},
+	"postURL": {
+		"DEV": "micro/customer/P000000614",
+		"STG": "micro/customer/P000000614",
+		"PRD": "micro/customer/P000000614",
+		"EU": "micro/customer/P000000614",
+		"RUH": "micro/customer/KSAP000000614"
+	},
+
+	"bodyRequestFileName": "request.json",
+
+	"bodyResponseFileName": "response.json",
+
+	"headerCheckAssertion": {
+		"statusCode": "200"
+	}
+}

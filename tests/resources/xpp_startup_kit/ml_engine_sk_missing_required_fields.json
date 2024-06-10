@@ -1,0 +1,7 @@
+{
+    "priority":"High", 
+    "eventName":"This is a QA Automated tests to reproduce missing required field error via ml-engine-sk", 
+    "action":"log", 
+    "count":"1", 
+    "logValues":{"testvalue":"This is a QA Automated tests to reproduce missing required field error via ml-engine-sk","splunkRuleDescription":"This is a QA Automated tests to reproduce missing required field error via ml-engine-sk","ruleDescription":"This is a QA Automated tests to reproduce missing required field error via ml-engine-sk", "severity":"High"}
+}

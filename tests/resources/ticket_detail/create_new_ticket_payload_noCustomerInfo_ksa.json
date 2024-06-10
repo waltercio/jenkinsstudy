@@ -1,0 +1,13 @@
+{
+  "priorityVal":"Low (3)",
+  "severityVal":"",
+  "priority":"",
+  "shortDescription": "TESTING customerName customerId issues",
+
+  "statusVal" : "new",
+  "issueType": "SIEM Anomaly",
+
+
+  "assignmentGroup": "IBM-SD-Service Desk",
+  "securityAnalyst": "diegobs"
+}

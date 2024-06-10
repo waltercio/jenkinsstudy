@@ -1,0 +1,44 @@
+{
+		"DEV": {
+			"description": "ApacheModproxyDos",
+			"logType": "IDS_IPS",
+			"name": "ApacheModproxyDos",
+			"eventId": 60134,
+			"vendorId": 1,
+			"remedyCustomerId": "P000000614"
+		},
+		"STG": {
+			"description": "ApacheModproxyDos",
+			"logType": "IDS_IPS",
+			"name": "ApacheModproxyDos",
+			"eventId": 60134,
+			"vendorId": 1,
+			"remedyCustomerId": "P000000614"
+		},
+		"PRD": {
+			"description": "ApacheModproxyDos",
+			"logType": "IDS_IPS",
+			"name": "ApacheModproxyDos",
+			"eventId": 60134,
+			"vendorId": 1,
+			"remedyCustomerId": "P000000614"
+		},
+		"EU": {
+			"description": "Accepted Password",
+			"logType": "FIREWALL",
+			"name": "Accepted Password",
+			"eventId": 28203847,
+			"vendorId": 1,
+			"remedyCustomerId": "P000000614"
+		},
+		"RUH": {
+			"description": "ApacheModproxyDos",
+			"logType": "IDS_IPS",
+			"name": "ApacheModproxyDos",
+			"eventId": 60134,
+			"vendorId": 1,
+			"remedyCustomerId": "P000000614"
+		}
+}
+
+
